@@ -1,0 +1,42 @@
+
+.nav-logo,
+.footer-logo{
+  width:50px;
+}
+
+
+.hero-image{
+  width: 500px;
+}
+
+.card-icon{
+  width: 60px;
+}
+
+.wlc-icon{
+  width: 40px
+}
+
+.featured-container {
+  width: 500px;
+  height: 200px;
+  background: url(../asset/homeImages/featured-basic.png) no-repeat center center/cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wlc-container{
+  display: flex;
+}
+
+.wlc-icon-container{
+  display: flex;
+}
+
+.wlc-card{
+  display: flex;
+  align-items: center;
+}
+

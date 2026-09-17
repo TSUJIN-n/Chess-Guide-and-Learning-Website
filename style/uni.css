@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+
+      /* COLORS */
+    --bg-primary: #06111F;
+    --bg-secondary: #0B192B;
+    --bg-section: #0A1626;
+
+    --card-bg: #101F33;
+    --card-bg-hover: #172A42;
+    --card-border: #2B4059;
+
+    --gold-primary: #F5B942;
+    --gold-light: #FFD36A;
+    --gold-dark: #C58A22;
+
+    --text-primary: #F8F5EF;
+    --text-secondary: #C3CEDC;
+    --text-muted: #8291A5;
+
+    --chess-white: #F3E7D0;
+    --chess-black: #182333;
+
+    --border-color: #263A52;
+
+
+
+      /* TYPOGRAPHY */
+    --font-heading: "Playfair Display", serif;
+    --font-body: "Inter", sans-serif;
+
+    --fs-xs: 0.75rem;       /* 12px */
+    --fs-sm: 0.875rem;      /* 14px */
+    --fs-md: 1rem;          /* 16px */
+    --fs-lg: 1.125rem;      /* 18px */
+
+    --fs-h3: 1.5rem;        /* 24px */
+    --fs-h2: 2.25rem;       /* 36px */
+    --fs-h1: 3.5rem;        /* 56px */
+
+      /* FONT WEIGHTS */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+      /* SPACING */
+    --space-xs: 0.5rem;     /* 8px */
+    --space-sm: 0.75rem;    /* 12px */
+    --space-md: 1rem;       /* 16px */
+    --space-lg: 1.5rem;     /* 24px */
+    --space-xl: 2rem;       /* 32px */
+    --space-2xl: 3rem;      /* 48px */
+    --space-3xl: 4rem;      /* 64px */
+
+      /* BORDER RADIUS */
+    --radius-sm: 0.5rem;    /* 8px */
+    --radius-md: 0.75rem;   /* 12px */
+    --radius-lg: 1rem;      /* 16px */
+    --radius-xl: 1.25rem;   /* 20px */
+    --radius-full: 999rem;
+
+      /* SHADOWS */
+    --shadow-sm: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.20);
+    --shadow-md: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.30);
+    --shadow-lg: 0 0.75rem 2.5rem rgba(0, 0, 0, 0.40);
+
+      /* LAYOUT */
+    --container-width: 80rem;    /* 1280px */
+    --header-height: 4.75rem;    /* 76px */
+    --section-padding: 5rem;     /* 80px */
+
+      /* TRANSITIONS */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+
+}
