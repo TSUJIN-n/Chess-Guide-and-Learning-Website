@@ -1,5 +1,63 @@
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 15rem;
+  gap: var(--size-xl);
+  background-color: black;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-sm);
+}
+
+.hero-text{
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+  color: var(--text-secondary);
+  margin-bottom: var(--size-md);
+  line-height: 1.50rem;
+}
+
+.hero-title{
+  font-size: var(--fs-h1);
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  letter-spacing: 0.10rem;
+  line-height: 3rem;
+}
+
+.hero-highlight{
+  color: var(--gold-primary);
+}
+
+.hero-tag{
+  display: flex;
+  align-items: center;
+  gap: var(--size-sm);
+}
+
+.hero-tag-list{
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+  color: var(--gold-light);
+}
+
+.hero-button{
+  display: inline;
+  background-color: var(--gold-primary);
+  font-size: var(--fs-p);
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  border-radius: var(--radius-xl);
+  font-weight: var(--fw-bold);
+  font-family: var(--font-body);
+  color: var(--chess-black);
+}
+
 .hero-video{
-  width: 500px;
+  width: 50rem;
 }
 
 .card-icon{

@@ -1,4 +1,38 @@
 .nav-logo,
 .footer-logo{
-  width: 50px;
+  width: var(--size-3xl);
+}
+
+
+.nav-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-md);
+  background-color: var(--bg-primary);
+  height: auto;
+  padding: var(--size-lg);
+}
+
+.nav-content{
+  display: flex;
+  align-items: center;
+  gap: var(--size-sm);
+}
+
+.nav-list{
+  display: flex;
+  gap: var(--size-xl);
+
+}
+.nav-link{
+  color: var(--text-secondary);
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+}
+
+.nav-title{
+  color: var(--text-primary);
+  font-family: var(--font-body);
 }
