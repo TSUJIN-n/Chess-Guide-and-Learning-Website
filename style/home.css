@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--size-xl);
+  padding: 2rem 0rem;
 }
 
 .hero-section{
@@ -72,6 +73,7 @@
   justify-content: space-between;
   gap: var(--size-xl);
   flex-wrap: wrap;
+  padding: 2rem 0rem;
 }
 
 .card-section{
@@ -109,6 +111,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem 0rem;
 }
 
 .wlc-section{
@@ -172,16 +175,13 @@
 }
 
 .featured-container {
-  padding: 5rem 2rem;
-  width: 45rem;
-  height: auto;
+  padding: 4.5rem 2rem;
   background: url(../asset/homeImages/featured-basic.png) no-repeat center center/cover;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-shadow: var(--shadow-lg);
-  border-radius: var(--radius-xl);
 }
 
 
@@ -212,4 +212,31 @@
   color: var(--text-secondary);
   line-height: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+
+/* footer */
+.footer-piece-img{
+  width: 10rem;
+}
+
+.footer-piece-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-secondary);
+}
+
+.footer-item-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.piece-name{
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+  color: var(--text-secondary);
 }
