@@ -41,6 +41,13 @@
   padding: 2rem 0rem 0rem 0rem;
 }
 
+.chessboard-pieces-objective-rule-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .chessboard-content-container{
   display: flex;
   gap: 2rem;
@@ -52,8 +59,8 @@
 
 .chessboard-container{
   background-color: var(--chess-black);
-  width: 35rem;
-  padding: 1rem 1rem 1rem 2rem;
+  width: 37rem;
+  padding: 1rem 1rem 2rem 1rem;
   border-radius: var(--radius-lg);
 }
 
@@ -67,10 +74,14 @@
 
 .chessboard-p{
   color: var(--text-primary);
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
 }
 
 .chessboard-p-p{
   color: var(--text-secondary);
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
   margin-top: 0.2rem;
 }
 
@@ -80,10 +91,14 @@
 
 .chessboard-title{
   color: var(--text-primary);
+  font-size: var(--fs-h2);
+  font-family: var(--font-heading);
 }
 
 .chessboard-description{
   color: var(--text-secondary);
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
 }
 
 .chessboard-text-icon-container{
@@ -95,4 +110,67 @@
 .chessboard-text-text-container{
   padding: 0rem 0.5rem;
   align-content: center;
+}
+
+/* chess pieces */
+.chess-pieces-img-container{
+  display: flex;
+}
+
+.chess-piece-img{
+  width: 7rem;
+}
+
+.chess-piece-title{
+  color: var(--text-primary);
+  font-size: var(--fs-h2);
+  font-family: var(--font-heading);
+}
+.chess-piece-description{
+  color: var(--text-secondary);
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+}
+
+.pieces-name{
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  margin-top: 1rem;
+}
+
+.chess-piece-img-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value-piece{
+  color: var(--gold-primary);
+  font-size: var(--fs-h4);
+  font-family: var(--font-body);
+}
+
+.value-title{
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: var(--fs-p);
+}
+
+.chess-piece-value{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 0.0rem 0.30rem 0.1rem rgba(255, 255, 255, 0.4);
+  border-radius: var(--radius-sm);
+  margin-top: 1rem;
+}
+
+.chess-pieces-container{
+  background-color: var(--chess-black);
+  width: 45rem;
+  padding: 1rem 1rem 2rem 1rem;
 }

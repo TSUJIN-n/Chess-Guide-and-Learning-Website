@@ -258,3 +258,8 @@
 .footer-text-container{
   padding: 0rem 2rem;
 }
+
+.footer-description-highlight{
+  color: var(--gold-primary);
+  font-weight: var(--fw-bold);
+}
