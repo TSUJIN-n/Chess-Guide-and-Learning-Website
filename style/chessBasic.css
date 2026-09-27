@@ -1,3 +1,98 @@
+/* hero section */
+
 .hero-image{
-  width: 700px;
+  width: 50rem;
+}
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0rem;
+  gap: 2rem;
+}
+
+.hero-tag{
+  color: var(--gold-light);
+  font-family: var(--font-body);
+  font-size: var(--fs-p);
+}
+
+.hero-title{
+  font-size: var(--fs-h1);
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+}
+
+.hero-section{
+  background-color: black;
+}
+
+.hero-description{
+  font-size: var(--fs-p);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+}
+
+/* chessboard section */
+
+.chess-fundamentals{
+  background-color: var(--bg-primary);
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.chessboard-content-container{
+  display: flex;
+  gap: 2rem;
+}
+
+.chessboard-image{
+  width: 15rem;
+}
+
+.chessboard-container{
+  background-color: var(--chess-black);
+  width: 35rem;
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: var(--radius-lg);
+}
+
+.chessboard-icon-container{
+  display: flex;
+}
+
+.chessboard-icon{
+  width: 3.5rem;
+}
+
+.chessboard-p{
+  color: var(--text-primary);
+}
+
+.chessboard-p-p{
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+.chessboard-text-container{
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.chessboard-title{
+  color: var(--text-primary);
+}
+
+.chessboard-description{
+  color: var(--text-secondary);
+}
+
+.chessboard-text-icon-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chessboard-text-text-container{
+  padding: 0rem 0.5rem;
+  align-content: center;
 }

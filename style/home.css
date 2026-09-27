@@ -39,9 +39,7 @@
   line-height: 3rem;
 }
 
-.hero-highlight{
-  color: var(--gold-primary);
-}
+
 
 .hero-tag{
   display: flex;

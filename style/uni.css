@@ -6,8 +6,12 @@
   list-style-type: none;
 }
 .container{
-  width: min(1280px, calc(100% - 48px));
+  width: min(1350px, calc(100% - 48px));
   margin-inline: auto;
+}
+
+.hero-highlight{
+  color: var(--gold-primary);
 }
 :root {
 
