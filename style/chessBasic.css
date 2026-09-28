@@ -288,3 +288,6 @@
 .quick-recap-icon{
   width: 3rem;
 }
+.quick-recap-highlight{
+  color: var(--gold-primary);
+}
