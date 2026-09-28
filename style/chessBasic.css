@@ -61,7 +61,7 @@
   background-color: var(--chess-black);
   width: 37rem;
   padding: 1rem 1rem 2rem 1rem;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
 }
 
 .chessboard-icon-container{
@@ -99,6 +99,7 @@
   color: var(--text-secondary);
   font-size: var(--fs-p);
   font-family: var(--font-body);
+  line-height: 1.5rem;
 }
 
 .chessboard-text-icon-container{
@@ -130,6 +131,7 @@
   color: var(--text-secondary);
   font-size: var(--fs-p);
   font-family: var(--font-body);
+  line-height: 1.5rem;
 }
 
 .pieces-name{
@@ -173,4 +175,116 @@
   background-color: var(--chess-black);
   width: 45rem;
   padding: 1rem 1rem 2rem 1rem;
+  border-radius: var(--radius-md);
+}
+
+/* Objective */
+
+.objective-container{
+  background-color: var(--chess-black);
+  width: 29rem;
+  padding: 1rem 1rem 2rem 1rem;
+  border-radius: var(--radius-md);
+}
+.objective-title,
+.basic-rule-title{
+  color: var(--text-primary);
+  font-size: var(--fs-h2);
+  font-family: var(--font-heading);
+}
+
+.objective-description,
+.basic-rule-description{
+  color: var(--text-secondary);
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+  line-height: 1.5rem;
+}
+
+.objective-text-icon-container{
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem;
+  border: solid 1px var(--gold-primary);
+  border-radius: var(--radius-md);
+  margin-top: 2rem;
+}
+.objective-icon-h2{
+  color: var(--gold-primary);
+  font-size: var(--fs-h4);
+  font-family: var(--font-body);
+}
+.objective-icon-p,
+.basic-rule-p,
+.quick-recap-list{
+  font-size: var(--fs-p);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  line-height: 1.5rem;
+}
+
+.objective-img{
+  width: 4rem;
+}
+
+/* basic rule */
+.basic-rule-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 1rem 2rem 1rem;
+  width: 54rem;
+  background-color: var(--chess-black);
+  border-radius: var(--radius-md);
+}
+
+.basic-rule-img{
+  width: 3rem;
+}
+
+.basic-rule-img-label-container{
+  display: flex;
+  gap: 1rem;
+}
+
+.basic-rule-h2{
+  color: var(--text-primary);
+  font-size: var(--fs-h6);
+  font-family: var(--font-body);
+}
+
+.basic-rule-img-container,
+.basic-rule-label{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* quick recap */
+.quick-recap-container{
+  background: url(../asset/ChessBasicImages/quick-recap-background-img.png)no-repeat center center/cover;
+  color: white;
+  width: 100%;
+  padding: 1rem 1rem 2rem 1rem;;
+}
+
+.quick-recap-title{
+  color: var(--text-primary);
+  font-size: var(--fs-h4);
+  font-family: var(--font-body);
+}
+.quick-recap-button{
+  padding: 0.7rem 2rem;
+  color: var(--chess-black);
+  background-color: var(--gold-primary);
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+  border-radius: var(--radius-xl);
+}
+.quick-recap-item{
+  padding-bottom: 2rem;
+}
+
+.quick-recap-icon{
+  width: 3rem;
 }

@@ -195,7 +195,6 @@
 }
 
 .featured-button{
-  display: inline;
   padding: 0.7rem 2rem;
   color: var(--chess-black);
   background-color: var(--gold-primary);

@@ -6,6 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fontawsome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../fontawsome/css/solid.min.css">
+    <link rel="stylesheet" href="../fontawsome/css/brands.min.css">
     <link rel="stylesheet" href="../style/uni.css">
     <link rel="stylesheet" href="../style/chessBasic.css">
     <link rel="stylesheet" href="../style/nav.css">
@@ -153,98 +156,100 @@
             </div>
           </div>
           <!-- The Objective -->
-          <div>
-            <div>
-              <h1>The Objective</h1>
-              <p>
+          <div class="objective-container">
+            <div class="objective-text-container">
+              <h1 class="objective-title">The Objective</h1>
+              <p class="objective-description">
                 The goal of chess is to checkmate your opponent's king. This means putting the king in a position where it cannot escape capture.
               </p>
             </div>
-            <div>
-              <div>
-                <img src="../asset/ChessBasicImages/chess-queen.svg" alt="Queen" width="50px"> 
-              </div>
-              <div>
-                <h2>Checkmate = Win</h2>
-                <p>
+            <div class="objective-text-icon-container">
+                <img class="objective-img" src="../asset/ChessBasicImages/chess-queen.svg" alt="Queen"> 
+              <div class="objective-text-container">
+                <h2 class="objective-icon-h2">Checkmate = Win</h2>
+                <p class="objective-icon-p">
                   if the king is in check and has no legal moves, the game is over.
                 </p>
               </div>
             </div>
           </div>
           <!-- Basic Rules -->
-          <div>
-            <div>
-              <h2>Basic Rules</h2>
-              <p>
+          <div class="basic-rule-container">
+            <div class="basic-rule-title-container">
+              <h2 class="basic-rule-title">Basic Rules</h2>
+              <p class="basic-rule-description">
                 Here are the essential rules you need to know.
               </p>
             </div>
-            <div>
-              <div>
-                <img src="../asset/ChessBasicImages/turn.svg" alt="turn" width="50px">
-              </div>
-              <div>
-                <h2>1.Turn Based</h2>
-                <p>
-                  Players take turns moving one piece at a time.
-                </p>
+
+            <div class="basic-rule-img-label-container">
+
+              <div class="basic-rule-img-container">
+                <img class="basic-rule-img" src="../asset/ChessBasicImages/turn.svg" alt="turn">
+                <div class="basic-rule-label">
+                  <h2 class="basic-rule-h2">1. Turn Based</h2>
+                  <p class="basic-rule-p">
+                    Players take turns moving one piece at a time.
+                  </p>
+                </div>
               </div>
 
-              <div>
-                <img src="../asset/ChessBasicImages/sword.svg" alt="sword" width="50px">
-              </div>
-              <div>
-                <h2>2.Capturing</h2>
-                <p>
-                  You can capture an opponent's piece by moving to its square.
-                </p>
-              </div>
-
-              <div>
-                <img src="../asset/ChessBasicImages/shield.svg" alt="shield" width="50px">
-                <h2>3.Check</h2>
-                <p>
-                  The king is in Check when it is under attack by an opponent's piece.
-                </p>
+              <div class="basic-rule-img-container">
+                <img class="basic-rule-img" src="../asset/ChessBasicImages/sword.svg" alt="sword">
+                <div class="basic-rule-label">
+                  <h2 class="basic-rule-h2">2. Capturing</h2>
+                  <p class="basic-rule-p">
+                    You can capture an opponent's piece by moving to its square.
+                  </p>
+                </div>
               </div>
 
-              <div>
-                <img src="../asset/ChessBasicImages/chess-queen.svg" alt="queen" width="50px">
-                <h2>4.Checkmate</h2>
-                <p>
-                  The game ends when the king is in check and cannot move.
-                </p>
+              <div class="basic-rule-img-container">
+                <img class="basic-rule-img" src="../asset/ChessBasicImages/shield.svg" alt="shield">
+                <div class="basic-rule-label">
+                  <h2 class="basic-rule-h2">3. Check</h2>
+                  <p class="basic-rule-p">
+                    The king is in Check when it is under attack by an opponent's piece.
+                  </p>
+                </div>
               </div>
 
-              <div>
-                <img src="../asset/ChessBasicImages/shake-hands.svg" alt="shake-hands" width="50px">
+              <div class="basic-rule-img-container">
+                <img class="basic-rule-img" src="../asset/ChessBasicImages/chess-queen.svg" alt="queen">
+                <div class="basic-rule-label">
+                  <h2 class="basic-rule-h2">4. Checkmate</h2>
+                  <p class="basic-rule-p">
+                    The game ends when the king is in check and cannot move.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h2>5.Draw</h2>
-                <p>
-                  The game can also end in a draw{stalemate, threefold repetition, etc.}
-                </p>
+
+              <div class="basic-rule-img-container">
+                <img class="basic-rule-img" src="../asset/ChessBasicImages/shake-hands.svg" alt="shake-hands">
+                <div class="basic-rule-label">
+                  <h2 class="basic-rule-h2">5. Draw</h2>
+                  <p class="basic-rule-p">
+                      The game can also end in a draw{stalemate, threefold repetition, etc.}
+                  </p>
+                </div>
               </div>
+
             </div>
           </div>
           <!-- Quick Recap -->
-          <div>
-            <div>
-              <img src="../asset/ChessBasicImages/feature-img.png" alt="ChessImage" width="400px">
-            </div>
-            <div>
-              <img src="../asset/ChessBasicImages/bulb.svg" alt="bulb" width="30px"> 
-              <h2>Quick Recap</h2>
-              <ul>
-                <li><span>✓</span> 8x8 board(64 squares)</li>
-                <li><span>✓</span> 6 types of pieces</li>
-                <li><span>✓</span> Each piece moves differently</li>
-                <li><span>✓</span> Goal: checkmate the king</li>
-                <li><span>✓</span> Follow the basic rules</li>
+          <div class="quick-recap-container">
+            <div class="quick-recap-content-container">
+              <img class="quick-recap-icon" src="../asset/ChessBasicImages/bulb.svg" alt="bulb"> 
+              <h2 class="quick-recap-title">Quick Recap</h2>
+              <ul class="quick-recap-item">
+                <li class="quick-recap-list"><span>✓</span> 8x8 board(64 squares)</li>
+                <li class="quick-recap-list"><span>✓</span> 6 types of pieces</li>
+                <li class="quick-recap-list"><span>✓</span> Each piece moves differently</li>
+                <li class="quick-recap-list"><span>✓</span> Goal: checkmate the king</li>
+                <li class="quick-recap-list"><span>✓</span> Follow the basic rules</li>
               </ul>
-              <div>
-                <a href="ChessPieces.html">Next: Learn the Pieces</a>
+              <div class="quick-recap-button-container">
+                <a class="quick-recap-button" href="ChessPieces.html">Next: Learn the Pieces<i class="fa-solid fa-chevron-right"></i></a>
               </div>
             </div>
           </div>
