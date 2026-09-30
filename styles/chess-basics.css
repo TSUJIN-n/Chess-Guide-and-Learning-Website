@@ -61,10 +61,6 @@
   margin-top: 0.2rem;
 }
 
-.chessboard-text-container{
-  padding: 0rem 0rem 1rem 0rem;
-}
-
 .chessboard-text-icon-container{
   display: flex;
   flex-direction: column;
@@ -188,7 +184,7 @@
   background: url(../assets/images/chess-basics/quick-recap-background-img.png) no-repeat center center/cover;
   color: white;
   width: 100%;
-  padding: 1rem 1rem 2rem 1rem;;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 .quick-recap-title{
@@ -196,18 +192,9 @@
   font-size: var(--fs-h4);
   font-family: var(--font-body);
 }
-.quick-recap-button{
-  padding: 0.7rem 2rem;
-  color: var(--chess-black);
-  background-color: var(--gold-primary);
-  font-family: var(--font-body);
-  font-weight: var(--fw-bold);
-  border-radius: var(--radius-xl);
-}
 .quick-recap-item{
   padding-bottom: 2rem;
 }
-
 .quick-recap-icon{
   width: 3rem;
 }
