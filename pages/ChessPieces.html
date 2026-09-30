@@ -50,153 +50,172 @@
       </section>
       
       <!-- Pieces Description -->
-      <section>
-        <div>
-          <div>
-            <img src="../asset/ChessBasicImages/king.png" alt="King" width="200px">
-          </div>
-          <div>
-            <div>
-              <h2>King</h2>
-              <p>The MOST IMPORTANCE PIECE</p>
-              <P>
-                The king cannot be captured. Your main goal is to keep it safe if the king is in check and cannot escape. the game is over.
-              </P>
+      <section class="pieces-section">
+        <div class="pieces-container container">
+          <div class="piece-container">
+            <div class="piece-img-container">
+              <img class="piece-img" src="../asset/ChessBasicImages/king.png" alt="King">
             </div>
-            <div>
-              <div>
-                <img src="../asset/ChessPiecesImages/kingDirection.svg" alt="kingMove" width="50px">
-                <div>
-                  <p>MOVEMENT</p>
-                  <p>1 square in any direction</p>
+            <div class="piece-content-container">
+              <div class="piece-text-container">
+                <h2 class="piece-name">King</h2>
+                <p class="piece-tag-name">THE MOST IMPORTANCE PIECE</p>
+                <P class="piece-description">
+                  The king cannot be captured. Your main goal is to keep it safe if the king is in check and cannot escape. the game is over.
+                </P>
+              </div>
+              <div class="piece-move-img-container">
+                <div class="piece-direction-container">
+                  <img class="piece-img-direction" src="../asset/ChessPiecesImages/kingDirection.svg" alt="king-move">
                 </div>
-              </div> 
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <img src="../asset/ChessBasicImages/queen.png" alt="Queen" width="200px">
-          </div>
-          <div>
-            <div>
-              <h2>Queen</h2>
-              <p>The MOST POWERFUL PIECE</p>
-              <P>
-                The queen can move in any direction horizontally, verically, or diagonally. It's the most versatile piece on the board.
-              </P>
-            </div>
-            <div>
-              <div>
-                <img src="../asset/ChessPiecesImages/queenDirection.svg" alt="queenMove" width="50px">
-                <div>
-                  <p>MOVEMENT</p>
-                  <p>Any direction(unlimited squares)</p>
+                <div class="piece-move-container">
+                  <p class="piece-move-p">MOVEMENT</p>
+                  <p class="piece-move-p1">1 square in any direction</p>
                 </div>
-              </div> 
+              </div>
             </div>
+            <video class="piece-video" loop autoplay muted>
+              <source src="../asset/video/King.mp4">
+            </video>
           </div>
-        </div>
 
-        <div>
-          <div>
-            <img src="../asset/ChessBasicImages/rook.png" alt="rook" width="200px">
-          </div>
-          <div>
-            <div>
-              <h2>Rook</h2>
-              <p>THE STRONGER DEFENDER</p>
-              <P>
-                The rook moves in straight line, either horizontally or vertically. it's powerfull on open files and ranks.
-              </P>
+          <div class="piece-container">
+            <div class="piece-img-container">
+              <img class="piece-img" src="../asset/ChessBasicImages/queen.png" alt="Queen">
             </div>
-            <div>
-              <div>
-                <img src="../asset/ChessPiecesImages/rookDirection.svg" alt="rookMove" width="50px">
-                <div>
-                  <p>MOVEMENT</p>
-                  <p>Horizontal or vertical (unlimited squares)</p>
+            <div class="piece-content-container">
+              <div class="piece-text-container">
+                <h2 class="piece-name">Queen</h2>
+                <p class="piece-tag-name">THE MOST POWERFUL PIECE</p>
+                <P class="piece-description">
+                  The queen can move in any direction horizontally, verically, or diagonally. It's the most versatile piece on the board.
+                </P>
+              </div>
+              <div class="piece-move-img-container">
+                <div class="piece-direction-container">
+                  <img class="piece-img-direction" src="../asset/ChessPiecesImages/queenDirection.svg" alt="queen-move">
                 </div>
-              </div> 
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <img src="../asset/ChessBasicImages/bishop.png" alt="bishop" width="200px">
-          </div>
-          <div>
-            <div>
-              <h2>Bishop</h2>
-              <p>THE LONG RANGE PIECE</p>
-              <P>
-                The bishop moves diagonally. and it can only stay on the color it stat on (white or black squares.)
-              </P>
-            </div>
-            <div>
-              <div>
-                <img src="../asset/ChessPiecesImages/bishopDirection.svg" alt="bishopMove" width="50px">
-                <div>
-                  <p>MOVEMENT</p>
-                  <p>Diagonal (unlimited squares)</p>
+                <div class="piece-move-container">
+                  <p class="piece-move-p">MOVEMENT</p>
+                  <p class="piece-move-p1">Any direction(unlimited squares)</p>
                 </div>
-              </div> 
+              </div>
             </div>
+            <video class="piece-video" loop autoplay muted>
+              <source src="../asset/video/Queen.mp4">
+            </video>
           </div>
-        </div>
 
-        <div>
-          <div>
-            <img src="../asset/ChessBasicImages/knight.png" alt="knight" width="200px">
-          </div>
-          <div>
-            <div>
-              <h2>Knight</h2>
-              <p>THE UNIQUE JUMPER</p>
-              <P>
-                The knight moves in an L-shape, 2 squares in one direction, then 1 square perpendicular. it can jump over other pieces.
-              </P>
+          <div class="piece-container">
+            <div class="piece-img-container">
+              <img class="piece-img" src="../asset/ChessBasicImages/rook.png" alt="rook">
             </div>
-            <div>
-              <div>
-                <img src="../asset/ChessPiecesImages/knightDirection.svg" alt="knightMove" width="50px">
-                <div>
-                  <p>MOVEMENT</p>
-                  <p>L-shape (2 + 1 squares)</p>
+            <div class="piece-content-container">
+              <div class="piece-text-container">
+                <h2 class="piece-name">Rook</h2>
+                <p class="piece-tag-name">THE STRONGER DEFENDER</p>
+                <P class="piece-description">
+                  The rook moves in straight line, either horizontally or vertically. it's powerfull on open files and ranks.
+                </P>
+              </div>
+              <div class="piece-move-img-container">
+                <div class="piece-direction-container">
+                  <img class="piece-img-direction" src="../asset/ChessPiecesImages/rookDirection.svg" alt="rook-move">
                 </div>
-              </div> 
+                <div class="piece-move-container">
+                  <p class="piece-move-p">MOVEMENT</p>
+                  <p class="piece-move-p1">Horizontal or vertical (unlimited squares)</p>
+                </div>
+              </div>
             </div>
+            <video class="piece-video" loop autoplay muted>
+              <source src="../asset/video/Rock.mp4">
+            </video>
           </div>
-        </div>
 
-        <div>
-          <div>
-            <img src="../asset/ChessBasicImages/pawn.png" alt="pawn" width="200px">
-          </div>
-          <div>
-            <div>
-              <h2>Pawn</h2>
-              <p>THE FOOT SOLDIER</p>
-              <P>
-                The pawn is the most common piece on the board. it can move forward one square, or two squares on its first move. pawns capture diagonally.
-              </P>
+          <div class="piece-container">
+            <div class="piece-img-container">
+              <img class="piece-img" src="../asset/ChessBasicImages/bishop.png" alt="bishop">
             </div>
-            <div>
-              <div>
-                <img src="../asset/ChessPiecesImages/pawnDirection.svg" alt="pawnMove" width="50px">
-                <div>
-                  <p>MOVEMENT</p>
-                  <p>
+            <div class="piece-content-container">
+              <div class="piece-text-container">
+                <h2 class="piece-name">Bishop</h2>
+                <p class="piece-tag-name">THE LONG RANGE PIECE</p>
+                <P class="piece-description">
+                  The bishop moves diagonally. and it can only stay on the color it stat on (white or black squares).
+                </P>
+              </div>
+              <div class="piece-move-img-container">
+                <div class="piece-direction-container">
+                  <img class="piece-img-direction" src="../asset/ChessPiecesImages/bishopDirection.svg" alt="bishop-move">
+                </div>
+                <div class="piece-move-container">
+                  <p class="piece-move-p">MOVEMENT</p>
+                  <p class="piece-move-p1">Diagonal (unlimited squares)</p>
+                </div>
+              </div>
+            </div>
+            <video class="piece-video" loop autoplay mute>
+              <source src="../asset/video/bishop.mp4">
+            </video>
+          </div>
+
+          <div class="piece-container">
+            <div class="piece-img-container">
+              <img class="piece-img" src="../asset/ChessBasicImages/knight.png" alt="knight">
+            </div>
+            <div class="piece-content-container">
+              <div class="piece-text-container">
+                <h2 class="piece-name">Knight</h2>
+                <p class="piece-tag-name">THE UNIQUE JUMPER</p>
+                <P class="piece-description">
+                  The knight moves in an L-shape, 2 squares in one direction, then 1 square perpendicular. it can jump over other pieces.
+                </P>
+              </div>
+              <div class="piece-move-img-container">
+                <div class="piece-direction-container">
+                  <img class="piece-img-direction" src="../asset/ChessPiecesImages/knightDirection.svg" alt="knight-move">
+                </div>
+                <div class="piece-move-container">
+                  <p class="piece-move-p">MOVEMENT</p>
+                  <p class="piece-move-p1">L-shape (2 + 1 squares)</p>
+                </div>
+              </div>
+            </div>
+            <video class="piece-video" loop autoplay muted>
+              <source src="../asset/video/knight.mp4" >
+            </video>
+          </div>
+
+          <div class="piece-container">
+            <div class="piece-img-container">
+              <img class="piece-img" src="../asset/ChessBasicImages/pawn.png" alt="pawn">
+            </div>
+            <div class="piece-content-container">
+              <div class="piece-text-container">
+                <h2 class="piece-name">Pawn</h2>
+                <p class="piece-tag-name">THE FOOT SOLDIER</p>
+                <P class="piece-description">
+                  The pawn is the most common piece on the board. it can move forward one square, or two squares on its first move. pawns capture diagonally.
+                </P>
+              </div>
+              <div class="piece-move-img-container">
+                <div class="piece-direction-container">
+                  <img class="piece-img-direction" src="../asset/ChessPiecesImages/pawnDirection.svg" alt="pawn-move">
+                </div>
+                <div class="piece-move-container">
+                  <p class="piece-move-p">MOVEMENT</p>
+                  <p class="piece-move-p1">
                     1 square (2 on first move) Captures diagonally
                   </p>
                 </div>
-              </div> 
+              </div>
             </div>
+            <video class="piece-video" loop autoplay muted>
+              <source src="../asset/video/Pawn.mp4">
+            </video>
           </div>
         </div>
-        
       </section>
 
       <section>
