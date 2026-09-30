@@ -1,0 +1,56 @@
+.container{
+  width: min(1350px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.highlight{
+  color: var(--gold-primary);
+}
+
+.video,
+.image{
+  width: 100%;
+  max-width: 100rem;
+}
+
+.h1-title{
+  font-size: var(--fs-h1);
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  letter-spacing: 0.20rem;
+  line-height: 3rem;
+}
+
+.h2-title{
+  color: var(--text-primary);
+  font-size: var(--fs-h2);
+  font-family: var(--font-heading);
+}
+
+.tag{
+  color: var(--gold-light);
+  font-family: var(--font-body);
+  font-size: var(--fs-p);
+}
+
+.hero-section{
+  background-color: black;
+}
+
+.text-description{
+  font-size: var(--fs-p);
+  font-family: var(--font-body);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.btn{
+  background-color: var(--gold-primary);
+  font-size: var(--fs-p);
+  padding: 0.75rem 2rem;
+  border-radius: var(--radius-xl);
+  font-weight: var(--fw-bold);
+  font-family: var(--font-body);
+  color: var(--chess-black);
+}
+

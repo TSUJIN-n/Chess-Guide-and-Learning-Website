@@ -8,15 +8,6 @@
   padding: 2rem 0rem;
 }
 
-.hero-section{
-  background-color: black;
-}
-
-.hero-video{
-  width: 100%;
-  max-width: 100rem;
-}
-
 .hero-content{
   display: flex;
   flex-direction: column;
@@ -24,43 +15,14 @@
 }
 
 .hero-text{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--text-secondary);
   margin-bottom: var(--size-md);
-  line-height: 1.5rem;
 }
 
-.hero-title{
-  font-size: var(--fs-h1);
-  font-family: var(--font-heading);
-  color: var(--text-primary);
-  letter-spacing: 0.10rem;
-  line-height: 3rem;
-}
-
-.hero-tag{
+.hero-tag-list{
   display: flex;
   align-items: center;
   gap: var(--size-sm);
 }
-
-.hero-tag-list{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--gold-light);
-}
-
-.hero-button{
-  display: inline;
-  background-color: var(--gold-primary);
-  font-size: var(--fs-p);
-  padding: 0.75rem 2rem;
-  border-radius: var(--radius-xl);
-  font-weight: var(--fw-bold);
-  font-family: var(--font-body);
-  color: var(--chess-black);
-} 
 
 /* card section */
 .card-container{
@@ -90,12 +52,6 @@
   font-size: var(--fs-h5);
   font-family: var(--font-heading);
   color: var(--text-primary);
-}
-
-.card-text{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--text-secondary);
 }
 .card-icon{
   width: 3.5rem;
@@ -131,12 +87,6 @@
   gap: var(--size-sm);
 }
 
-.wlc-tag{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--gold-primary);
-}
-
 .wlc-title{
   font-size: var(--fs-h3);
   font-family: var(--font-heading);
@@ -144,22 +94,12 @@
 }
 
 .wlc-text{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--text-secondary);
-  line-height: 1.5rem;
   padding-bottom: 1rem;
 }
 
 .wlc-icon-container{
   display: flex;
   gap: var(--size-xl);
-}
-
-.wlc-card-text{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--text-secondary);
 }
 
 .wlc-card{
@@ -181,35 +121,15 @@
   box-shadow: var(--shadow-lg);
 }
 
-
-.featured-text{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--gold-primary);
-}
 .featured-title{
   font-size: var(--fs-h3);
   font-family: var(--font-heading);
   color: var(--text-primary);
 }
 
-.featured-button{
-  padding: 0.7rem 2rem;
-  color: var(--chess-black);
-  background-color: var(--gold-primary);
-  font-family: var(--font-body);
-  font-weight: var(--fw-bold);
-  border-radius: var(--radius-xl);
-}
-
 .featured-description{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--text-secondary);
-  line-height: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
 
 /* footer */
 .footer-piece-img{
@@ -231,21 +151,9 @@
   padding: 1rem 0rem;
 }
 
-.piece-name{
-  font-size: var(--fs-p);
-  font-family: var(--font-body);
-  color: var(--text-secondary);
-}
-
 .footer-piece-text-container{
   background-color: var(--bg-primary);
   padding-top: 2rem;
-}
-
-.footer-description{
-  color: var(--text-secondary);
-  font-family: var(--font-body);
-  font-size: var(--fs-p);
 }
 
 .footer-home-title{
@@ -259,6 +167,5 @@
 }
 
 .footer-description-highlight{
-  color: var(--gold-primary);
   font-weight: var(--fw-bold);
 }
