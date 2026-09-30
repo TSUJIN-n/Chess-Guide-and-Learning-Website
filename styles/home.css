@@ -1,13 +1,5 @@
 
 /* Hero section */
-.hero-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--size-xl);
-  padding: 2rem 0rem;
-}
-
 .hero-content{
   display: flex;
   flex-direction: column;
@@ -37,6 +29,7 @@
 .card-section{
   background-color: var(--bg-section);
 }
+
 .card-content{
   display: flex;
   flex-direction: column;

@@ -10,27 +10,33 @@
   <link rel="stylesheet" href="../styles/how-to-play.css">
   <link rel="stylesheet" href="../styles/nav.css">
   <link rel="stylesheet" href="../styles/component.css">
-  <link rel="icon" type="image/png" href="../assets/images/home/logo.svg">
+  <link rel="icon" type="image/svg+xml" href="../assets/images/home/logo.svg">
   <title>How to Play - Chess</title>
 </head>
 <body>
-  
+
   <!-- Header Section -->
-  <header>
-    <nav class="nav-container">
-        <div class="nav-content">
-          <img class="nav-logo" src="../assets/images/home/logo.svg" alt="chess-logo">
-          <h2 class="nav-title">CHESS FUNDAMENTALS</h2>
-        </div>
-        <div class="nav-menu">
-          <ul class="nav-list">
-            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="chess-basics.html">Chess Basics</a></li>
-            <li class="nav-item"><a class="nav-link" href="chess-pieces.html">Chess Pieces</a></li>
-            <li class="nav-item"><a class="nav-link" href="how-to-play.html">How to Play</a></li>
-          </ul>
-        </div>
-      </nav>
+  <header class="header-section">
+    <nav class="nav-container container">
+      <div class="nav-content">
+        <img class="nav-logo" src="../assets/images/home/logo.svg" alt="chess-logo">
+        <h2 class="nav-title">CHESS FUNDAMENTALS</h2>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chess-basics.html">Chess Basics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chess-pieces.html">Chess Pieces</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="how-to-play.html">How to Play</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <!-- Main Section -->
@@ -55,84 +61,84 @@
 
     <section>
       <div>
-        <div>
 
+        <div>
+          <p>01</p>
+          <h2>Setting Up the Board</h2>
+          <p>
+            Place the board so a white square is on the bottom-right corner. Position the pieces in the correct starting order.
+          </p>
+          <img src="../assets/images/chess-basics/chess-board.svg" alt="chessboard" width="200px">
+          <a href="#">View Setup Guide</a>
+        </div>
+
+        <div>
+          <p>02</p>
+          <h2>How Turns Work</h2>
+          <p>
+            Players take turns, with White moving first. Only one piece can be moved per turn.
+          </p>
+          <img src="../assets/images/how-to-play/turnExample.svg" alt="turn-example" width="200px">
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <p>03</p>
+          <h2>Capturing Pieces</h2>
+          <p>
+            You capture an opponent's piece by moving your piece to the same square. The captured piece is removed from the board.
+          </p>
+          <img src="../assets/images/how-to-play/capturingPieces.svg" alt="capture-the-piece" width="200px">
+          <a href="#">View Examples</a>
+        </div>
+
+        <div>
+          <p>04</p>
+          <h2>Check</h2>
+          <p>
+            A king is in check when it is threatened by an opponent's piece. The player must remove the threat or move the king.
+          </p>
+          <img src="../assets/images/how-to-play/checkExample.svg" alt="check-the-king" width="200px">
+          <a href="#">See Examples</a>
+        </div>
+
+        <div>
+          <p>05</p>
+          <h2>Checkmate</h2>
+          <p>
+            Checkmate happens when the king is in check and there is no legal move to escape. The game is over!
+          </p>
+          <img src="../assets/images/how-to-play/checkmateExample.svg" alt="checkmate-the-king" width="200px">
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <p>06</p>
+          <h2>Draw</h2>
+          <p>
+            A game can end in a draw in several ways: stalemate, threefold repetition, 50-move rule, or insufficient material.
+          </p>
           <div>
-            <p>01</p>
-            <h2>Setting Up the Board</h2>
-            <p>
-              Place the board so a white square is on the bottom-right corner. Position the pieces in the correct starting order.
-            </p>
-            <img src="../assets/images/chess-basics/chess-board.svg" alt="chessboard" width="200px">
-            <a href="#">View Setup Guide</a>
-        </div>
-
-        <div>
-            <p>02</p>
-            <h2>How Turns Work</h2>
-            <p>
-              Player take turns, with White moving first. Only piece can be moved per turn.
-            </p>
-            <img src="../assets/images/how-to-play/turnExample.svg" alt="turn-example" width="200px">
-            <a href="#">Learn More</a>
-        </div>
-
-        <div>
-            <p>03</p>
-            <h2>Capturing Pieces</h2>
-            <p>
-              You capture an opponent's piece by moving your piece to the same square. The captured piece is removed from the board.
-            </p>
-            <img src="../assets/images/how-to-play/capturingPieces.svg" alt="capture-the-piece" width="200px">
-            <a href="#">View Examples</a>
-        </div>
-
-        <div>
-            <p>04</p>
-            <h2>Check</h2>
-            <p>
-              A king is in check when it is threatened by an opponent's piece. The player must remove the threat or move the king.
-            </p>
-            <img src="../assets/images/how-to-play/checkExample.svg" alt="check-the-king" width="200px">
-            <a href="#">See Examples</a>
-        </div>
-
-        <div>
-            <p>05</p>
-            <h2>Checkmate</h2>
-            <p>
-              Checkmate happens when the king is in check and there is no legal move to escape. The game is over!
-            </p>
-            <img src="../assets/images/how-to-play/checkmateExample.svg" alt="checkmate-the-king" width="200px">
-            <a href="#">Learn More</a>
-        </div>
-
-        <div>
-            <p>06</p>
-            <h2>Draw</h2>
-            <p>
-              A game can end in a draw in several ways stalemate, threefold repetition, 50-move rule, or insufficient material.
-            </p>
             <div>
-              <div>
-                <img src="../assets/images/how-to-play/king.svg" alt="King" width="30px">
-                <p>Stalemate</p>
-              </div>
-              <div>
-                <img src="../assets/images/how-to-play/repeat.svg" alt="Repeat-move" width="30px">
-                <p>Threefold Repeition</p>
-              </div>
-              <div>
-                <img src="../assets/images/how-to-play/hourglass.svg" alt="hourglass" width="30px">
-                <p>50-Move Rule</p>
-              </div>
-              <div>
-                <img src="../assets/images/how-to-play/justice.svg" alt="justice" width="30px">
-                <p>Insufficient Material</p>
-              </div>
+              <img src="../assets/images/how-to-play/king.svg" alt="King" width="30px">
+              <p>Stalemate</p>
             </div>
-            <a href="#">Read Full Rules</a>
+            <div>
+              <img src="../assets/images/how-to-play/repeat.svg" alt="Repeat-move" width="30px">
+              <p>Threefold Repetition</p>
+            </div>
+            <div>
+              <img src="../assets/images/how-to-play/hourglass.svg" alt="hourglass" width="30px">
+              <p>50-Move Rule</p>
+            </div>
+            <div>
+              <img src="../assets/images/how-to-play/justice.svg" alt="justice" width="30px">
+              <p>Insufficient Material</p>
+            </div>
+          </div>
+          <a href="#">Read Full Rules</a>
         </div>
+
       </div>
     </section>
 
@@ -144,12 +150,12 @@
         <div>
           <p>QUICK TIP</p>
           <h1>Before You Play</h1>
-          <p>Keep these Key things in mind to get started:</p>
+          <p>Keep these key things in mind to get started:</p>
           <ul>
-            <li><span>✓</span>Learn the movement of each piece.</li>
-            <li><span>✓</span>Remember: the king is the most important piece.</li>
-            <li><span>✓</span>Try simple games and practice regularly</li>
-            <li><span>✓</span>Don't worry about mistakes - they help you learn!</li>
+            <li><span>✓</span> Learn the movement of each piece.</li>
+            <li><span>✓</span> Remember: the king is the most important piece.</li>
+            <li><span>✓</span> Try simple games and practice regularly.</li>
+            <li><span>✓</span> Don't worry about mistakes - they help you learn!</li>
           </ul>
         </div>
         <div>
@@ -160,21 +166,29 @@
   </main>
 
   <!-- Footer Section -->
-  <footer>
+  <footer class="footer-section">
     <div class="footer-container">
-        <div class="footer-content">
-          <img class="footer-logo" src="../assets/images/home/logo.svg" alt="chess-logo">
-          <h2 class="footer-title">CHESS FUNDAMENTALS</h2> 
-        </div>
-        <div class="footer-link-container">
-          <ul class="footer-list">
-            <li class="footer-item"><a class="footer-link" href="../index.html">Home</a></li>
-            <li class="footer-item"><a class="footer-link" href="chess-basics.html">Chess Basics</a></li>
-            <li class="footer-item"><a class="footer-link" href="chess-pieces.html">Chess Pieces</a></li>
-            <li class="footer-item"><a class="footer-link" href="how-to-play.html">How to Play</a></li>
-          </ul>
-        </div>
+      <div class="footer-content">
+        <img class="footer-logo" src="../assets/images/home/logo.svg" alt="chess-logo">
+        <h2 class="footer-title">CHESS FUNDAMENTALS</h2>
       </div>
+      <div class="footer-link-container">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="../index.html">Home</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="chess-basics.html">Chess Basics</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="chess-pieces.html">Chess Pieces</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="how-to-play.html">How to Play</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
