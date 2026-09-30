@@ -1,7 +1,8 @@
 /* hero section */
 
 .hero-image{
-  width: 50rem;
+  width: 100%;
+  max-width: 100rem;
 }
 
 .hero-container{
@@ -270,7 +271,7 @@
 
 /* quick recap */
 .quick-recap-container{
-  background: url(../asset/ChessBasicImages/quick-recap-background-img.png)no-repeat center center/cover;
+  background: url(../assets/images/chess-basics/quick-recap-background-img.png) no-repeat center center/cover;
   color: white;
   width: 100%;
   padding: 1rem 1rem 2rem 1rem;;
