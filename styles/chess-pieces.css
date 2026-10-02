@@ -5,6 +5,20 @@
   gap: var(--size-sm);
 }
 
+.h1-title{
+  font-size: var(--fs-h1);
+  line-height: 3rem;
+}
+
+.text-description{
+  font-size: var(--fs-p);
+  line-height: 1.5;
+}
+
+.tag{
+  font-size: var(--fs-p);
+}
+
 
 /* Pieces Description */
 .pieces-section{

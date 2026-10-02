@@ -5,11 +5,29 @@
   gap: var(--size-sm);
 }
 
+.h1-title{
+  font-size: var(--fs-h1);
+  line-height: 3rem;
+}
+
+.text-description{
+  font-size: var(--fs-p);
+  line-height: 1.5;
+}
+
+.tag{
+  font-size: var(--fs-p);
+}
+
 /* chessboard section */
 
 .chess-fundamentals{
   background-color: var(--bg-primary);
   padding: 2rem 0rem 0rem 0rem;
+}
+
+.h2-title{
+  font-size: var(--fs-h3);
 }
 
 .chessboard-pieces-objective-rule-container{

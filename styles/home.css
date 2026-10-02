@@ -6,8 +6,19 @@
   gap: var(--size-sm);
 }
 
-.hero-text{
+.h1-title{
+  font-size: var(--fs-h1);
+  line-height: 3rem;
+}
+
+.text-description{
+  font-size: var(--fs-p);
+  line-height: 1.5;
   margin-bottom: var(--size-md);
+}
+
+.tag{
+  font-size: var(--fs-p);
 }
 
 .hero-tag-list{
@@ -19,8 +30,7 @@
 /* card section */
 .card-container{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: stretch;
   gap: var(--size-xl);
   flex-wrap: wrap;
   padding: 2rem 0rem;
@@ -31,6 +41,7 @@
 }
 
 .card-content{
+  flex: 1 1 18rem;
   display: flex;
   flex-direction: column;
   gap: var(--size-sm);
@@ -54,9 +65,9 @@
 /* wlc section */
 .wlc-container{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 0rem;
+  align-items: stretch;
+  gap: 0;
+  padding: 2rem 0;
 }
 
 .wlc-section{
@@ -64,14 +75,13 @@
 }
 
 .wlc-content{
+  flex: 1 1 0;
   display: flex;
-  padding: 2rem;
   flex-direction: column;
   gap: var(--size-sm);
+  padding: 2rem;
   background-color: var(--bg-secondary);
   box-shadow: var(--shadow-lg);
-  width: 100%;
-  max-width: 45rem;
 }
 
 .wlc-text-container{
@@ -105,6 +115,7 @@
 }
 
 .featured-container {
+  flex: 1 1 0;
   padding: 4.5rem 2rem;
   background: url(../assets/images/home/featured-basic.png) no-repeat center center/cover;
   color: white;
@@ -161,4 +172,25 @@
 
 .footer-description-highlight{
   font-weight: var(--fw-bold);
+}
+
+
+@media (max-width: 1062px) {
+  .wlc-container{
+    flex-direction: column;
+  }
+
+  .wlc-content,
+  .featured-container{
+    width: 100%;
+  }
+
+  .h1-title{
+    font-size: 2rem;
+  }
+
+  .hero-text{
+    font-size: 1rem;
+  }
+
 }
