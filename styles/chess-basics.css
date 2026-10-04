@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: var(--size-sm);
   width: 100%;
-  max-width: 34rem;
+  max-width: 33rem;
 }
 
 .h1-title{
@@ -51,7 +51,7 @@
 .chessboard-container{
   background-color: var(--chess-black);
   width: 37rem;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem;
   border-radius: var(--radius-md);
   flex: 1;
 }
@@ -128,7 +128,7 @@
 .chess-pieces-container{
   background-color: var(--chess-black);
   width: 46rem;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem;
   border-radius: var(--radius-md);
   flex: 1;
 }
@@ -138,7 +138,7 @@
 .objective-container{
   background-color: var(--chess-black);
   width: 29rem;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem;
   border-radius: var(--radius-md);
 } 
 
@@ -166,7 +166,7 @@
   flex-direction: column;
   flex: 1;
   gap: 2rem;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem;
   width: 54rem;
   background-color: var(--chess-black);
   border-radius: var(--radius-md);
