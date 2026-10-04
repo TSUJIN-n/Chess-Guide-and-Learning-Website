@@ -14,11 +14,18 @@
 .text-description{
   font-size: var(--fs-p);
   line-height: 1.5;
-  margin-bottom: var(--size-md);
 }
 
 .tag{
   font-size: var(--fs-p);
+}
+
+.btn{
+  font-size: var(--fs-p);
+  padding: 0.75rem 2rem;
+  font-weight: var(--fw-bold);
+  border-radius: var(--radius-xl);
+  display: inline-block;
 }
 
 .hero-tag-list{
@@ -123,16 +130,13 @@
   flex-direction: column;
   justify-content: center;
   box-shadow: var(--shadow-lg);
+  gap: 1rem;
 }
 
 .featured-title{
   font-size: var(--fs-h3);
   font-family: var(--font-heading);
   color: var(--text-primary);
-}
-
-.featured-description{
-  padding-bottom: 1.5rem;
 }
 
 /* footer */

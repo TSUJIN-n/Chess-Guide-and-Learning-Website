@@ -39,10 +39,6 @@
 
 .btn{
   background-color: var(--gold-primary);
-  font-size: var(--fs-p);
-  padding: 0.75rem 2rem;
-  border-radius: var(--radius-xl);
-  font-weight: var(--fw-bold);
   font-family: var(--font-body);
   color: var(--chess-black);
 }
