@@ -140,6 +140,7 @@
   width: 29rem;
   padding: 1rem;
   border-radius: var(--radius-md);
+  flex: 0.7;
 } 
 
 .objective-text-icon-container{

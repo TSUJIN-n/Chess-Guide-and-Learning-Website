@@ -82,3 +82,51 @@
 .piece-img-direction{
   width: 3.25rem;
 }
+
+/* Quick Facts */
+.quick-facts-section{
+  background-color: var(--bg-primary);
+}
+
+.quick-facts-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.quick-facts-content-container,
+.quick-facts-remember-container{
+  flex: 1;
+}
+
+.quick-facts-content-container,
+.quick-facts-list,
+.quick-facts-btn-content-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quick-facts-img{
+  width: 22rem;
+}
+
+.btn{
+  font-size: var(--fs-p);
+  padding: 0.75rem 2rem;
+  font-weight: var(--fw-bold);
+  border-radius: var(--radius-xl);
+  display: inline-block;
+}
+
+.quick-img-bulb{
+  width: 3rem;
+}
+
+.quick-facts-remember-container{
+  background-color: var(--chess-black);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0px 0px 5px 0.1px var(--gold-primary);
+}
