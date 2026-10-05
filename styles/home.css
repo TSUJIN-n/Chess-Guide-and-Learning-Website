@@ -53,7 +53,7 @@
   flex-direction: column;
   gap: var(--size-sm);
   padding: 1.5rem;
-  width: 18rem;
+  width: 100%;
   background-color: var(--card-bg);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);

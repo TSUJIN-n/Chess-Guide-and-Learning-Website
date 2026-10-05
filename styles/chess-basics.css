@@ -50,7 +50,8 @@
 
 .chessboard-container{
   background-color: var(--chess-black);
-  width: 37rem;
+  width: 100%;
+  max-width: 37rem;
   padding: 1rem;
   border-radius: var(--radius-md);
   flex: 1;
@@ -127,7 +128,8 @@
 
 .chess-pieces-container{
   background-color: var(--chess-black);
-  width: 46rem;
+  width: 100%;
+  max-width: 46rem;
   padding: 1rem;
   border-radius: var(--radius-md);
   flex: 1;
@@ -137,7 +139,8 @@
 
 .objective-container{
   background-color: var(--chess-black);
-  width: 29rem;
+  width: 100%;
+  max-width: 29rem;
   padding: 1rem;
   border-radius: var(--radius-md);
   flex: 0.7;
@@ -168,7 +171,8 @@
   flex: 1;
   gap: 2rem;
   padding: 1rem;
-  width: 54rem;
+  width: 100%;
+  max-width: 54rem;
   background-color: var(--chess-black);
   border-radius: var(--radius-md);
 }
