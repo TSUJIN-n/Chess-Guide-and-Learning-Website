@@ -19,6 +19,13 @@
   font-size: var(--fs-p);
 }
 
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
 
 /* Pieces Description */
 .pieces-section{

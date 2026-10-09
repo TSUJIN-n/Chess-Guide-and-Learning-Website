@@ -6,6 +6,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="../fontawesome/css/solid.min.css">
+  <link rel="stylesheet" href="../fontawesome/css/brands.min.css">
   <link rel="stylesheet" href="../styles/uni.css">
   <link rel="stylesheet" href="../styles/how-to-play.css">
   <link rel="stylesheet" href="../styles/nav.css">
@@ -42,101 +45,164 @@
   <!-- Main Section -->
   <main>
     <!-- Hero Section -->
-    <section>
-      <div>
-        <div>
-          <p>HOW TO PLAY</p>
-          <h1>Learn How to Play <em>Chess</em></h1>
-          <p>
+    <section class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-text-container">
+          <p class="highlight tag">HOW TO PLAY</p>
+          <h1 class="h1-title">Learn How to Play <em class="highlight">Chess</em></h1>
+          <p class="text-description">
             Chess is easy to learn, but takes a lifetime to master. This guide will walk you through the essential rules and steps to help you start playing with confidence.
           </p>
         </div>
         <div>
-          <video width="500px" autoplay muted>
+          <video class="video" autoplay muted>
             <source src="../assets/videos/hero-how-to-play.mp4">
           </video>
         </div>
       </div>
     </section>
 
-    <section>
-      <div>
-
-        <div>
-          <p>01</p>
-          <h2>Setting Up the Board</h2>
-          <p>
-            Place the board so a white square is on the bottom-right corner. Position the pieces in the correct starting order.
-          </p>
-          <img src="../assets/images/chess-basics/chess-board.svg" alt="chessboard" width="200px">
-          <a href="#">View Setup Guide</a>
-        </div>
-
-        <div>
-          <p>02</p>
-          <h2>How Turns Work</h2>
-          <p>
-            Players take turns, with White moving first. Only one piece can be moved per turn.
-          </p>
-          <img src="../assets/images/how-to-play/turnExample.svg" alt="turn-example" width="200px">
-          <a href="#">Learn More</a>
-        </div>
-
-        <div>
-          <p>03</p>
-          <h2>Capturing Pieces</h2>
-          <p>
-            You capture an opponent's piece by moving your piece to the same square. The captured piece is removed from the board.
-          </p>
-          <img src="../assets/images/how-to-play/capturingPieces.svg" alt="capture-the-piece" width="200px">
-          <a href="#">View Examples</a>
-        </div>
-
-        <div>
-          <p>04</p>
-          <h2>Check</h2>
-          <p>
-            A king is in check when it is threatened by an opponent's piece. The player must remove the threat or move the king.
-          </p>
-          <img src="../assets/images/how-to-play/checkExample.svg" alt="check-the-king" width="200px">
-          <a href="#">See Examples</a>
-        </div>
-
-        <div>
-          <p>05</p>
-          <h2>Checkmate</h2>
-          <p>
-            Checkmate happens when the king is in check and there is no legal move to escape. The game is over!
-          </p>
-          <img src="../assets/images/how-to-play/checkmateExample.svg" alt="checkmate-the-king" width="200px">
-          <a href="#">Learn More</a>
-        </div>
-
-        <div>
-          <p>06</p>
-          <h2>Draw</h2>
-          <p>
-            A game can end in a draw in several ways: stalemate, threefold repetition, 50-move rule, or insufficient material.
-          </p>
-          <div>
-            <div>
-              <img src="../assets/images/how-to-play/king.svg" alt="King" width="30px">
-              <p>Stalemate</p>
-            </div>
-            <div>
-              <img src="../assets/images/how-to-play/repeat.svg" alt="Repeat-move" width="30px">
-              <p>Threefold Repetition</p>
-            </div>
-            <div>
-              <img src="../assets/images/how-to-play/hourglass.svg" alt="hourglass" width="30px">
-              <p>50-Move Rule</p>
-            </div>
-            <div>
-              <img src="../assets/images/how-to-play/justice.svg" alt="justice" width="30px">
-              <p>Insufficient Material</p>
+    <section class="card-section">
+      <div class="card-container  container">
+        <div class="card-content-container">
+          <div class="card-number-container">
+            <p class="card-number">01</p>
+          </div>
+          <div class="card-text-container">
+            <h2 class="h2-title">Setting Up the Board</h2>
+            <p class="text-description card-text-description">
+              Place the board so a white square is on the bottom-right corner. Position the pieces in the correct starting order.
+            </p>
+          </div>
+          <div class="card-img-btn-container">
+            <img class="card-img" src="../assets/images/chess-basics/chess-board.svg" alt="chessboard">
+            <div class="btn-container">
+              <a class="btn" href="#">
+              View Setup Guide 
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
             </div>
           </div>
-          <a href="#">Read Full Rules</a>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-number-container">
+            <p class="card-number">02</p>
+          </div>
+          <div class="card-text-container">
+            <h2 class="h2-title">How Turns Work</h2>
+            <p class="text-description card-text-description">
+              Players take turns, with White moving first. Only one piece can be moved per turn.
+            </p>
+          </div>
+          <div class="card-img-btn-container">
+            <img class="card-img" src="../assets/images/how-to-play/turnExample.svg" alt="turn-example">
+            <div class="btn-container">
+              <a class="btn" href="#">
+                Learn More
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-number-container">
+            <p class="card-number">03</p>
+          </div>
+          <div class="card-text-container">
+            <h2 class="h2-title">Capturing Pieces</h2>
+            <p class="text-description card-text-description">
+              You capture an opponent's piece by moving your piece to the same square. The captured piece is removed from the board.
+            </p>
+          </div>
+          <div class="card-img-btn-container">
+            <img class="card-img" src="../assets/images/how-to-play/capturingPieces.svg" alt="capture-the-piece">
+            <div class="btn-container">
+              <a class="btn" href="#">
+                View Examples
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-number-container">
+            <p class="card-number">04</p>
+          </div>
+          <div class="card-text-container">
+            <h2 class="h2-title">Check</h2>
+            <p class="text-description card-text-description">
+              A king is in check when it is threatened by an opponent's piece. The player must remove the threat or move the king.
+            </p>
+          </div>
+          <div class="card-img-btn-container">
+            <img class="card-img" src="../assets/images/how-to-play/checkExample.svg" alt="check-the-king" width="200px">
+            <div class="btn-container">
+              <a class="btn" href="#">
+                See Examples
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-number-container">
+            <p class="card-number">05</p>
+          </div>
+          <div class="card-text-container">
+            <h2 class="h2-title">Checkmate</h2>
+            <p class="text-description card-text-description">
+              Checkmate happens when the king is in check and there is no legal move to escape. The game is over!
+            </p>
+          </div>
+          <div class="card-img-btn-container">
+            <img class="card-img" src="../assets/images/how-to-play/checkmateExample.svg" alt="checkmate-the-king">
+            <div class="btn-container">
+              <a class="btn" href="#">
+                Learn More
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-number-container">
+            <p class="card-number">06</p>
+          </div>
+          <div class="card-text-container">
+            <h2 class="h2-title">Draw</h2>
+            <p class="text-description card-text-description">
+              A game can end in a draw in several ways: stalemate, threefold repetition, 50-move rule, or insufficient material.
+            </p>
+          </div>
+          <div class="card-draw-info-container">
+            <div class="card-draw-info">
+              <img class="icon-draw" src="../assets/images/how-to-play/king.svg" alt="King">
+              <p class="text-description card-text-description">Stalemate</p>
+            </div>
+            <div class="card-draw-info">
+              <img class="icon-draw" src="../assets/images/how-to-play/repeat.svg" alt="Repeat-move">
+              <p class="text-description card-text-description">Threefold Repetition</p>
+            </div>
+            <div class="card-draw-info">
+              <img class="icon-draw" src="../assets/images/how-to-play/hourglass.svg" alt="hourglass">
+              <p class="text-description card-text-description">50-Move Rule</p>
+            </div>
+            <div class="card-draw-info">
+              <img class="icon-draw" src="../assets/images/how-to-play/justice.svg" alt="justice">
+              <p class="text-description card-text-description">Insufficient Material</p>
+            </div>
+            <div class="btn-container">
+              <a class="btn" href="#">
+                Read Full Rules
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
         </div>
 
       </div>

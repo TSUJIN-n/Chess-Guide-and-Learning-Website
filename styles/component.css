@@ -38,14 +38,7 @@
 }
 
 .btn{
-  background-color: var(--gold-primary);
   font-family: var(--font-body);
-  color: var(--chess-black);
-}
-
-.hero-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  color: var(--chess-white);
+  border: 2px solid var(--gold-primary);
 }

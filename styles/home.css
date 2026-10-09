@@ -6,6 +6,13 @@
   gap: var(--size-sm);
 }
 
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
 .h1-title{
   font-size: var(--fs-h1);
   line-height: 3rem;
@@ -35,6 +42,7 @@
 }
 
 /* card section */
+
 .card-container{
   display: flex;
   align-items: stretch;
