@@ -38,8 +38,9 @@
 }
 
 /* card section  */
-.card-section{
-  background-color: var(--bg-primary);
+.card-section,
+.quick-recap-section{
+  background-color: black;
 }
 
 .card-container{
@@ -85,7 +86,7 @@
 }
 
 .h2-title{
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h4);
 }
 
 .card-img{
@@ -122,9 +123,80 @@
 
 .card-number-container{
   border: 2px solid var(--gold-primary);
-  display: inline;
   width: 4rem;
   height: 4rem;
   border-radius: 3rem;
   padding: 1rem;
+}
+
+.btn-container{
+  text-align: center;
+}
+
+/* Quick Recap */
+.quick-recap-container{
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 0rem;
+}
+
+.quick-recap-img{
+  width: 100%;
+  max-width: auto;
+}
+
+.quick-recap-quote-container,
+.quick-recap-img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quick-recap-quote-container,
+.quick-recap-text-container,
+.quick-recap-img-container,
+.quick-recap-quote-text-container{
+  display: flex;
+  flex: 1;
+}
+
+.quick-recap-quote{
+  color: var(--chess-white);
+  font-family: "Segoe Script", cursive;
+  line-height: 1.5;
+  word-spacing: 0.3rem;
+  font-size: var(--fs-p);
+}
+.quick-recap-quote-author{
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  word-spacing: 0.3rem;
+  font-size: var(--fs-sm);
+}
+
+.quick-recap-quote-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quick-recap-text-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.quick-recap-text-description{
+  line-height: 1.5;
+  word-spacing: 0.3rem;
+  font-size: var(--fs-sm);
+  font-family: var(--font-body);
+  color: var(--text-secondary);
+}
+
+.quick-recap-title{
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  font-size: var(--fs-h5);
 }
