@@ -36,3 +36,131 @@
   color: var(--chess-white);
   border: 2px solid var(--gold-primary);
 }
+
+
+/* Unavailable Popup */
+.unavailable-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(12, 12, 18, 0.82);
+  backdrop-filter: blur(7px);
+}
+
+.unavailable-overlay.active {
+  display: flex;
+  animation: unavailableFade 0.3s ease;
+}
+
+.unavailable-box {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  padding: 35px 28px;
+  text-align: center;
+  background: #19191f;
+  color: #f5f5f5;
+  border: 1px solid #353540;
+  border-radius: 18px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.45);
+  animation: unavailablePop 0.35s ease;
+}
+
+.unavailable-close {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.unavailable-close:hover {
+  color: white;
+}
+
+.unavailable-gif {
+  display: block;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin: 0 auto 12px;
+}
+
+.unavailable-box h2 {
+  margin: 10px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: #ff6565;
+}
+
+.unavailable-message {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.unavailable-description {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #a6a6b3;
+}
+
+.loading-dots::after {
+  content: "";
+  animation: unavailableDots 1.2s steps(4, end) infinite;
+}
+
+.unavailable-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 9px 13px;
+  border: 1px solid #493137;
+  border-radius: 30px;
+  color: #ff9292;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.status-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ff6565;
+  animation: unavailableBlink 1s infinite;
+}
+
+@keyframes unavailableFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes unavailablePop {
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes unavailableDots {
+  0% { content: ""; }
+  25% { content: "."; }
+  50% { content: ".."; }
+  75%, 100% { content: "..."; }
+}
+
+@keyframes unavailableBlink {
+  50% { opacity: 0.3; }
+}

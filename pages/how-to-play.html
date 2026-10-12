@@ -77,7 +77,7 @@
           <div class="card-img-btn-container">
             <img class="card-img" src="../assets/images/chess-basics/chess-board.svg" alt="chessboard">
             <div class="btn-container">
-              <a class="btn" href="#">
+              <a class="btn unavailable-link" href="#">
               View Setup Guide 
               <i class="fa-solid fa-chevron-right"></i>
             </a>
@@ -98,7 +98,7 @@
           <div class="card-img-btn-container">
             <img class="card-img" src="../assets/images/how-to-play/turnExample.svg" alt="turn-example">
             <div class="btn-container">
-              <a class="btn" href="#">
+              <a class="btn unavailable-link" href="#">
                 Learn More
                 <i class="fa-solid fa-chevron-right"></i>
               </a>
@@ -119,7 +119,7 @@
           <div class="card-img-btn-container">
             <img class="card-img" src="../assets/images/how-to-play/capturingPieces.svg" alt="capture-the-piece">
             <div class="btn-container">
-              <a class="btn" href="#">
+              <a class="btn unavailable-link" href="#">
                 View Examples
                 <i class="fa-solid fa-chevron-right"></i>
               </a>
@@ -140,7 +140,7 @@
           <div class="card-img-btn-container">
             <img class="card-img" src="../assets/images/how-to-play/checkExample.svg" alt="check-the-king" width="200px">
             <div class="btn-container">
-              <a class="btn" href="#">
+              <a class="btn unavailable-link" href="#">
                 See Examples
                 <i class="fa-solid fa-chevron-right"></i>
               </a>
@@ -161,7 +161,7 @@
           <div class="card-img-btn-container">
             <img class="card-img" src="../assets/images/how-to-play/checkmateExample.svg" alt="checkmate-the-king">
             <div class="btn-container">
-              <a class="btn" href="#">
+              <a class="btn unavailable-link" href="#">
                 Learn More
                 <i class="fa-solid fa-chevron-right"></i>
               </a>
@@ -198,7 +198,7 @@
             </div>
           </div>
           <div class="btn-container">
-            <a class="btn" href="#">
+            <a class="btn unavailable-link" href="#">
               Read Full Rules
               <i class="fa-solid fa-chevron-right"></i>
             </a>
@@ -277,5 +277,40 @@
       </div>
     </div>
   </footer>
+
+  <!-- unavailable popup -->
+    <div class="unavailable-overlay" id="unavailablePopup">
+      <div class="unavailable-box">
+
+        <button class="unavailable-close" id="closePopup">
+          &times;
+        </button>
+
+        <img
+          class="unavailable-gif"
+          src="../assets/videos/Cat Look GIF.gif"
+          alt="cat memes"
+        >
+
+        <h2 id="unavailableTitle">UNAVAILABLE</h2>
+
+        <p class="unavailable-message">
+          Still working on it<span class="loading-dots"></span>
+        </p>
+
+        <p class="unavailable-description">
+          This feature is currently under development.
+          Please check back later.
+        </p>
+
+        <span class="unavailable-status">
+          <span class="status-indicator"></span>
+          WORK IN PROGRESS
+        </span>
+
+      </div>
+    </div>
+    <script src="../script/script.js"></script>
+
 </body>
 </html>
