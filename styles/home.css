@@ -27,6 +27,7 @@
 .text-description{
   font-size: var(--fs-p);
   line-height: 1.5;
+  word-spacing: 0.25rem;
 }
 
 .tag{
@@ -204,11 +205,6 @@ html{
   html{
     font-size: 87.5%;
   }
-  .text-description{
-    line-height: 1.5;
-    word-spacing: 0.25rem;
-  }
-  
 }
 
 @media (max-width: 72rem){
@@ -274,5 +270,8 @@ html{
   }
   .wlc-icon-container{
     gap: 0.5rem;
+  }
+  .featured-button-container{
+    width: 70%;
   }
 }
