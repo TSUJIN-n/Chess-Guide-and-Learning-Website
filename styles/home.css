@@ -244,8 +244,9 @@ html{
     display: flex;
     flex-direction: column;
   }
-  .featured-container{
-    padding: 5rem 1rem;
+  .featured-container,
+  .wlc-content{
+    padding: 3rem 1rem;
   }
   .featured-button-container{
     width: 40%;
