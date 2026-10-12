@@ -1,4 +1,4 @@
-/* hero section */
+/* ====================== hero section ====================== */
 .hero-text-container{
   display: flex;
   flex-direction: column;
@@ -19,6 +19,11 @@
   gap: 2rem;
 }
 
+.image{
+  width: 100%;
+  max-width: 100rem;
+}
+
 .text-description{
   font-size: var(--fs-p);
   line-height: 1.5;
@@ -28,7 +33,7 @@
   font-size: var(--fs-p);
 }
 
-/* chessboard section */
+/* ====================== chessboard section ====================== */
 
 .chess-fundamentals{
   background-color: var(--bg-primary);
@@ -93,7 +98,7 @@
   align-content: center;
 }
 
-/* chess pieces */
+/* ====================== chess pieces ====================== */
 .chess-pieces-img-container{
   display: flex;
 }
@@ -142,7 +147,7 @@
   flex: 1;
 }
 
-/* Objective */
+/* ====================== Objective ====================== */
 
 .objective-container{
   background-color: var(--chess-black);
@@ -171,7 +176,7 @@
   width: 4rem;
 }
 
-/* basic rule */
+/* ====================== basic rule ====================== */
 .basic-rule-container{
   display: flex;
   flex-direction: column;
@@ -206,7 +211,7 @@
   gap: 0.5rem;
 }
 
-/* quick recap */
+/* ====================== quick recap ====================== */
 .quick-recap-container{
   background: url(../assets/images/chess-basics/quick-recap-background-img.png) no-repeat center center/cover;
   color: white;

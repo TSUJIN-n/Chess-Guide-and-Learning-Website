@@ -1,5 +1,5 @@
 
-/* Hero section */
+/* ====================== hero section ====================== */
 .hero-content{
   display: flex;
   flex-direction: column;
@@ -12,6 +12,12 @@
   justify-content: space-between;
   gap: 2rem;
 }
+
+.video{
+  width: 100%;
+  max-width: 100rem;
+}
+
 
 .h1-title{
   font-size: var(--fs-h1);
@@ -41,7 +47,7 @@
   gap: var(--size-sm);
 }
 
-/* card section */
+/* ====================== card section ====================== */
 
 .card-container{
   display: flex;
@@ -77,7 +83,7 @@
 }
 
 
-/* wlc section */
+/* ====================== wlc section ====================== */
 .wlc-container{
   display: flex;
   align-items: stretch;
@@ -147,7 +153,7 @@
   color: var(--text-primary);
 }
 
-/* footer */
+/* ====================== footer ====================== */
 .footer-piece-img{
   width: 100%;
   max-width: 10rem;
@@ -187,22 +193,80 @@
 }
 
 
-@media (max-width: 1062px) {
+/* ====================== responsive ======================  */
+
+html{
+  font-size: 100%;
+}
+
+@media (max-width: 81.25rem){
+  html{
+    font-size: 87.5%;
+  }
+  .text-description{
+    line-height: 1.5;
+    word-spacing: 0.25rem;
+  }
+  
+}
+
+@media (max-width: 72rem){
+  .card-content{
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 65rem){
+  html{
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 55rem){
+  html{
+    font-size: 62.5%;
+  }
+
+  .hero-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+  }
+  .video{
+    max-width: 50rem;
+  }
+  .h1-title{
+    text-align: center;
+  }
+
+  .hero-tag-list{
+    justify-content: center;
+  }
+  .btn{
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+  }
   .wlc-container{
+    display: flex;
     flex-direction: column;
   }
-
-  .wlc-content,
   .featured-container{
-    width: 100%;
+    padding: 5rem 1rem;
   }
-
-  .h1-title{
-    font-size: 2rem;
+  .featured-button-container{
+    width: 40%;
   }
+}
 
-  .hero-text{
-    font-size: 1rem;
+@media(max-width: 40.625rem){
+  .hero-text-description{
+    text-align: center;
   }
+}
 
+@media(max-width: 32.5rem){
+  .card-container{
+    flex-direction: column;
+  }
 }
