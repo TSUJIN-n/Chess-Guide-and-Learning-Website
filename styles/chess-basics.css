@@ -48,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .chessboard-content-container{
@@ -66,7 +66,7 @@
   max-width: 37rem;
   padding: 1rem;
   border-radius: var(--radius-md);
-  flex: 1;
+  flex: 1 1 calc(50% - 16px);
 }
 
 .chessboard-icon-container{
@@ -104,7 +104,8 @@
 }
 
 .chess-piece-img{
-  width: 7rem;
+  width: 100%;
+  max-width: 7rem;
 }
 
 .pieces-name{
@@ -144,7 +145,7 @@
   max-width: 46rem;
   padding: 1rem;
   border-radius: var(--radius-md);
-  flex: 1;
+  flex: 1 1 calc(50% - 16px);
 }
 
 /* ====================== Objective ====================== */
@@ -155,7 +156,7 @@
   max-width: 29rem;
   padding: 1rem;
   border-radius: var(--radius-md);
-  flex: 0.7;
+  flex: 1 1 calc(50% - 16px);
 } 
 
 .objective-text-icon-container{
@@ -173,24 +174,25 @@
 }
 
 .objective-img{
-  width: 4rem;
+  width: 100%;
+  max-width: 4rem;
 }
 
 /* ====================== basic rule ====================== */
 .basic-rule-container{
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 1 1 calc(50% - 16px);
   gap: 2rem;
   padding: 1rem;
   width: 100%;
-  max-width: 54rem;
   background-color: var(--chess-black);
   border-radius: var(--radius-md);
 }
 
 .basic-rule-img{
-  width: 3rem;
+  width: 100%;
+  max-width: 3rem;
 }
 
 .basic-rule-img-label-container{
@@ -217,6 +219,7 @@
   color: white;
   width: 100%;
   padding: 1rem 1rem 2rem 1rem;
+  background-size: contain;
 }
 
 .quick-recap-content-container{
@@ -248,4 +251,102 @@
   font-weight: var(--fw-bold);
   border-radius: var(--radius-xl);
   display: inline-block;
+}
+
+.chessboard-piece-container,
+.objective-chess-rule-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+html{
+  font-size: 100%;
+}
+
+/* ====================== responsive ====================== */
+
+@media(max-width: 77rem ){
+  html{
+    font-size: 87.5%;
+  }
+}
+
+@media(max-width: 76.25rem){
+  .basic-rule-container,
+  .chess-pieces-container,
+  .chessboard-container{
+    flex-direction: column;
+    max-width: none;
+  }
+  .objective-container{
+    flex-direction: column;
+  }
+  html{
+    font-size: 75%;
+  }
+  .hero-container{
+    flex-direction: column;
+    padding: 2rem 0rem;
+  }
+  .hero-text-container{
+    margin-top: 5rem;
+    max-width: none;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  .hero-text-description,
+  .hero-tag{
+    font-size: 1.5rem;
+  }
+  .hero-title{
+    font-size: 4rem;
+    line-height: 1;
+  }
+  .objective-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .objective-text-icon-container{
+    margin: 0;
+  }
+}
+
+@media (max-width: 56.25rem) {
+  .chessboard-pieces-objective-rule-container{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .objective-text-icon-container{
+    margin-top: 2rem;
+  }
+
+  .hero-text-description,
+  .hero-tag{
+    font-size: 1.25rem;
+  }
+  .hero-title{
+    font-size: 3.25rem;
+    line-height: 1;
+  }
+  .objective-chess-rule-container{
+    flex-direction: column;
+  }
+  .objective-container{
+    max-width: none;
+  }
+}
+
+@media(max-width: 37.5rem){
+  html{
+    font-size: 62.5%;
+  }
+  .hero-text-description,
+  .hero-tag{
+    font-size: 1rem;
+  }
+  .hero-title{
+    font-size: 3rem;
+    line-height: 1;
+  }
 }

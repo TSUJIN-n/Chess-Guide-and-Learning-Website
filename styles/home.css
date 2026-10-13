@@ -218,7 +218,6 @@ html{
     font-size: 75%;
   }
   .hero-container{
-    display: flex;
     flex-direction: column;
     padding: 2rem 0rem;
   }
