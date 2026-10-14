@@ -299,9 +299,12 @@ html{
   .hero-tag{
     font-size: 1.5rem;
   }
-  .hero-title{
+  .h1-title{
     font-size: 4rem;
     line-height: 1;
+  }
+  .highlight{
+    display: inline-block;
   }
   .objective-container{
     display: flex;
@@ -325,9 +328,8 @@ html{
   .hero-tag{
     font-size: 1.25rem;
   }
-  .hero-title{
+  .h1-title{
     font-size: 3.25rem;
-    line-height: 1;
   }
   .objective-chess-rule-container{
     flex-direction: column;
@@ -345,8 +347,7 @@ html{
   .hero-tag{
     font-size: 1rem;
   }
-  .hero-title{
+  .h1-title{
     font-size: 3rem;
-    line-height: 1;
   }
 }
