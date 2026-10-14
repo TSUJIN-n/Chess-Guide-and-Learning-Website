@@ -103,7 +103,7 @@
 .quick-facts-container {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1em;
   flex-wrap: wrap;
 }
 
@@ -121,7 +121,8 @@
 }
 
 .quick-facts-img{
-  width: 22rem;
+  width: 100%;
+  max-width: 25rem;
 }
 
 .btn{
@@ -141,4 +142,76 @@
   padding: 1.5rem;
   border-radius: var(--radius-lg);
   box-shadow: 0px 0px 5px 0.1px var(--gold-primary);
+}
+.quick-facts-img-text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+/* ===================== Responsive Design ===================== */
+@media (max-width: 72rem){
+  html{
+    font-size: 87.5%;
+  }
+  .quick-facts-img{
+    display: none;
+  }
+}
+
+@media (max-width: 62rem){
+  html{
+    font-size: 75%;
+  }
+  
+}
+
+@media (max-width: 53.75rem){
+  .hero-container{
+    flex-direction: column;
+  }
+  .hero-text-container{
+    align-items: center;
+    margin-top: 5rem;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  .h1-title,
+  .hero-text-description{
+    text-align: center;
+  }
+  .h1-title{
+    font-size: 3.5rem;
+  }
+  .text-description{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 46.875rem){
+  .piece-container{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .quick-facts-container{
+    flex-direction: column;
+  }
+  .quick-facts-img-text-container,
+  .quick-facts-remember-container{
+    width: 100%;
+    gap: 0rem;
+  }
+  .highlight{
+    display: inline-block;
+  }
+
+  .h1-title{
+    font-size: 3rem;
+  }
+  .text-description{
+    font-size: 1rem;
+  }
 }
