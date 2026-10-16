@@ -219,3 +219,15 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 34rem ){
+  .piece-container{
+    width: 100%;
+    max-width: 35rem;
+    padding: 5rem 2rem;
+    gap: 1rem;
+  }
+  .pieces-container{
+    justify-content: center;
+  }
+}
