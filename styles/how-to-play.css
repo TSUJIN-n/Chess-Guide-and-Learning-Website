@@ -43,7 +43,9 @@
 }
 
 /* ====================== card section======================  */
-.card-section,
+.card-section{
+  background-color: var(--bg-primary);
+}
 .quick-recap-section{
   background-color: black;
 }
@@ -214,7 +216,7 @@
   }
   .hero-container{
     flex-direction: column;
-    padding: 2rem 0rem;
+    padding: 0;
   }
   .hero-text-container{
     justify-content: center;
