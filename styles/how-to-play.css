@@ -206,3 +206,37 @@
   font-family: var(--font-heading);
   font-size: var(--fs-h5);
 }
+
+/* ====================== responsive ===================== */
+@media (max-width: 62.5rem){
+  html{
+    font-size: 87.5%;
+  }
+  .hero-container{
+    flex-direction: column;
+    padding: 2rem 0rem;
+  }
+  .hero-text-container{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+  }
+}
+
+@media(max-width: 56.25rem){
+  html{
+    font-size: 75%;
+  }
+}
+
+@media(max-width: 50rem){
+  .quick-recap-container{
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 31.25rem){
+  html{
+    font-size: 62.5%;
+  }
+}

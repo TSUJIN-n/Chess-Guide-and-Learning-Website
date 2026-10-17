@@ -197,10 +197,6 @@
 
 /* ====================== responsive ======================  */
 
-html{
-  font-size: 100%;
-}
-
 @media (max-width: 81.25rem){
   html{
     font-size: 87.5%;
