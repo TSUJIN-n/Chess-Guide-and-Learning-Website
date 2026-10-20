@@ -1,5 +1,5 @@
 /* ====================== hero section ====================== */
-.hero-text-container{
+.hero-text-container {
   display: flex;
   flex-direction: column;
   gap: var(--size-sm);
@@ -7,60 +7,60 @@
   max-width: 33rem;
 }
 
-.h1-title{
+.h1-title {
   font-size: var(--fs-h1);
   line-height: 3rem;
 }
 
-.hero-container{
+.hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
 
-.image{
+.image {
   width: 100%;
   max-width: 100rem;
 }
 
-.text-description{
+.text-description {
   font-size: var(--fs-p);
   line-height: 1.5;
 }
 
-.tag{
+.tag {
   font-size: var(--fs-p);
 }
 
 /* ====================== chessboard section ====================== */
 
-.chess-fundamentals{
+.chess-fundamentals {
   background-color: var(--bg-primary);
   padding: 2rem 0rem 0rem 0rem;
 }
 
-.h2-title{
+.h2-title {
   font-size: var(--fs-h3);
 }
 
-.chessboard-pieces-objective-rule-container{
+.chessboard-pieces-objective-rule-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
 }
 
-.chessboard-content-container{
+.chessboard-content-container {
   display: flex;
   gap: 2rem;
 }
 
-.chessboard-image{
+.chessboard-image {
   width: 15rem;
 }
 
-.chessboard-container{
+.chessboard-container {
   background-color: var(--chess-black);
   width: 100%;
   max-width: 37rem;
@@ -69,66 +69,66 @@
   flex: 1 1 calc(50% - 16px);
 }
 
-.chessboard-icon-container{
+.chessboard-icon-container {
   display: flex;
 }
 
-.chessboard-icon{
+.chessboard-icon {
   width: 3.5rem;
 }
 
-.chessboard-p{
+.chessboard-p {
   color: var(--text-primary);
   font-size: var(--fs-p);
   font-family: var(--font-body);
 }
 
-.chessboard-p-p{
+.chessboard-p-p {
   margin-top: 0.2rem;
 }
 
-.chessboard-text-icon-container{
+.chessboard-text-icon-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.chessboard-text-container{
+.chessboard-text-container {
   padding: 0rem 0.5rem;
   align-content: center;
 }
 
 /* ====================== chess pieces ====================== */
-.chess-pieces-img-container{
+.chess-pieces-img-container {
   display: flex;
 }
 
-.chess-piece-img{
+.chess-piece-img {
   width: 100%;
   max-width: 7rem;
 }
 
-.pieces-name{
+.pieces-name {
   font-size: var(--fs-p);
   font-family: var(--font-body);
   color: var(--text-primary);
   margin-top: 1rem;
 }
 
-.chess-piece-img-text-container{
+.chess-piece-img-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.value-piece{
+.value-piece {
   color: var(--gold-primary);
   font-size: var(--fs-h4);
   font-family: var(--font-body);
 }
 
-.chess-piece-value{
+.chess-piece-value {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +139,7 @@
   margin-top: 1rem;
 }
 
-.chess-pieces-container{
+.chess-pieces-container {
   background-color: var(--chess-black);
   width: 100%;
   max-width: 46rem;
@@ -150,16 +150,16 @@
 
 /* ====================== Objective ====================== */
 
-.objective-container{
+.objective-container {
   background-color: var(--chess-black);
   width: 100%;
   max-width: 29rem;
   padding: 1rem;
   border-radius: var(--radius-md);
   flex: 1 1 calc(50% - 16px);
-} 
+}
 
-.objective-text-icon-container{
+.objective-text-icon-container {
   display: flex;
   gap: 2rem;
   padding: 1.5rem;
@@ -167,19 +167,20 @@
   border-radius: var(--radius-md);
   margin-top: 2rem;
 }
-.objective-icon-h2{
+
+.objective-icon-h2 {
   color: var(--gold-primary);
   font-size: var(--fs-h4);
   font-family: var(--font-body);
 }
 
-.objective-img{
+.objective-img {
   width: 100%;
   max-width: 4rem;
 }
 
 /* ====================== basic rule ====================== */
-.basic-rule-container{
+.basic-rule-container {
   display: flex;
   flex-direction: column;
   flex: 1 1 calc(50% - 16px);
@@ -190,31 +191,31 @@
   border-radius: var(--radius-md);
 }
 
-.basic-rule-img{
+.basic-rule-img {
   width: 100%;
   max-width: 3rem;
 }
 
-.basic-rule-img-label-container{
+.basic-rule-img-label-container {
   display: flex;
   gap: 1rem;
 }
 
-.basic-rule-h2{
+.basic-rule-h2 {
   color: var(--text-primary);
   font-size: var(--fs-h6);
   font-family: var(--font-body);
 }
 
 .basic-rule-img-container,
-.basic-rule-label{
+.basic-rule-label {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
 /* ====================== quick recap ====================== */
-.quick-recap-container{
+.quick-recap-container {
   background: url(../assets/images/chess-basics/quick-recap-background-img.png) no-repeat center center/cover;
   color: white;
   width: 100%;
@@ -222,30 +223,32 @@
   background-size: contain;
 }
 
-.quick-recap-content-container{
+.quick-recap-content-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.quick-recap-title-container{
+.quick-recap-title-container {
   display: flex;
   align-items: center;
 }
 
-.quick-recap-title{
+.quick-recap-title {
   color: var(--text-primary);
   font-size: var(--fs-h4);
   font-family: var(--font-body);
 }
-.quick-recap-icon{
+
+.quick-recap-icon {
   width: 3rem;
 }
-.quick-recap-highlight{
+
+.quick-recap-highlight {
   color: var(--gold-primary);
 }
 
-.btn{
+.btn {
   font-size: var(--fs-p);
   padding: 0.75rem 2rem;
   font-weight: var(--fw-bold);
@@ -254,7 +257,7 @@
 }
 
 .chessboard-piece-container,
-.objective-chess-rule-container{
+.objective-chess-rule-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -262,88 +265,104 @@
 
 /* ====================== responsive ====================== */
 
-@media(max-width: 77rem ){
-  html{
+@media(max-width: 77rem) {
+  html {
     font-size: 87.5%;
   }
 }
 
-@media(max-width: 76.25rem){
+@media(max-width: 76.25rem) {
+
   .basic-rule-container,
   .chess-pieces-container,
-  .chessboard-container{
+  .chessboard-container {
     flex-direction: column;
     max-width: none;
   }
-  .objective-container{
+
+  .objective-container {
     flex-direction: column;
   }
-  html{
+
+  html {
     font-size: 75%;
   }
-  .hero-container{
+
+  .hero-container {
     flex-direction: column;
     padding: 2rem 0rem;
   }
-  .hero-text-container{
+
+  .hero-text-container {
     margin-top: 5rem;
     max-width: none;
     text-align: center;
     gap: 1.5rem;
   }
+
   .hero-text-description,
-  .hero-tag{
+  .hero-tag {
     font-size: 1.5rem;
   }
-  .h1-title{
+
+  .h1-title {
     font-size: 4rem;
     line-height: 1;
   }
-  .highlight{
+
+  .highlight {
     display: inline-block;
   }
-  .objective-container{
+
+  .objective-container {
     display: flex;
     justify-content: space-around;
   }
-  .objective-text-icon-container{
+
+  .objective-text-icon-container {
     margin: 0;
   }
 }
 
 @media (max-width: 56.25rem) {
-  .chessboard-pieces-objective-rule-container{
+  .chessboard-pieces-objective-rule-container {
     flex-wrap: nowrap;
     flex-direction: column;
   }
-  .objective-text-icon-container{
+
+  .objective-text-icon-container {
     margin-top: 2rem;
   }
 
   .hero-text-description,
-  .hero-tag{
+  .hero-tag {
     font-size: 1.25rem;
   }
-  .h1-title{
+
+  .h1-title {
     font-size: 3.25rem;
   }
-  .objective-chess-rule-container{
+
+  .objective-chess-rule-container {
     flex-direction: column;
   }
-  .objective-container{
+
+  .objective-container {
     max-width: none;
   }
 }
 
-@media(max-width: 34.5rem){
-  html{
+@media(max-width: 32.5rem) {
+  html {
     font-size: 62.5%;
   }
+
   .hero-text-description,
-  .hero-tag{
+  .hero-tag {
     font-size: 1rem;
   }
-  .h1-title{
+
+  .h1-title {
     font-size: 3rem;
   }
 }
