@@ -126,14 +126,10 @@
   color: var(--gold-primary);
   font-size: var(--fs-h4);
   font-weight: var(--fw-bold);
-}
-
-.card-number-container{
   border: 2px solid var(--gold-primary);
-  width: 4rem;
-  height: 4rem;
-  border-radius: 3rem;
-  padding: 1rem;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem; 
 }
 
 .btn-container{
