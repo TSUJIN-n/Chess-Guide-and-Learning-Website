@@ -96,7 +96,7 @@
                 alt="chessboard"
               />
               <div class="btn-container">
-                <a class="btn unavailable-link" href="#">
+                <a onclick="alert(`Still working on it `)" class="btn" href="#">
                   View Setup Guide
                   <i class="fa-solid fa-chevron-right"></i>
                 </a>
@@ -122,7 +122,7 @@
                 alt="turn-example"
               />
               <div class="btn-container">
-                <a class="btn unavailable-link" href="#">
+                <a onclick="alert(`Still working on it `)" class="btn" href="#">
                   Learn More
                   <i class="fa-solid fa-chevron-right"></i>
                 </a>
@@ -148,7 +148,7 @@
                 alt="capture-the-piece"
               />
               <div class="btn-container">
-                <a class="btn unavailable-link" href="#">
+                <a onclick="alert(`Still working on it `)" class="btn" href="#">
                   View Examples
                   <i class="fa-solid fa-chevron-right"></i>
                 </a>
@@ -201,7 +201,7 @@
                 alt="checkmate-the-king"
               />
               <div class="btn-container">
-                <a class="btn unavailable-link" href="#">
+                <a class="btn" href="checkmate.html">
                   Learn More
                   <i class="fa-solid fa-chevron-right"></i>
                 </a>
@@ -261,7 +261,7 @@
               </div>
             </div>
             <div class="btn-container">
-              <a class="btn unavailable-link" href="#">
+              <a onclick="alert(`Still working on it `)" class="btn" href="#">
                 Read Full Rules
                 <i class="fa-solid fa-chevron-right"></i>
               </a>
@@ -355,34 +355,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- unavailable popup -->
-    <div class="unavailable-overlay" id="unavailablePopup">
-      <div class="unavailable-box">
-        <button class="unavailable-close" id="closePopup">&times;</button>
-
-        <img
-          class="unavailable-gif"
-          src="../assets/videos/memess.gif"
-          alt="memes"
-        />
-
-        <h2 id="unavailableTitle">UNAVAILABLE</h2>
-
-        <p class="unavailable-message">
-          Still working on it<span class="loading-dots"></span>
-        </p>
-
-        <p class="unavailable-description">
-          This feature is currently under development. Please check back later.
-        </p>
-
-        <span class="unavailable-status">
-          <span class="status-indicator"></span>
-          WORK IN PROGRESS
-        </span>
-      </div>
-    </div>
-    <script src="../script/popup.js"></script>
+    <script src="../script/menu.js"></script>
   </body>
 </html>
