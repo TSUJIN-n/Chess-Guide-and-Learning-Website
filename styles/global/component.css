@@ -36,3 +36,14 @@
   color: var(--chess-white);
   border: 2px solid var(--gold-primary);
 }
+
+.heroNumber{
+  font-family: var(--font-body);
+  color: var(--text-primary);
+}
+
+.backBtn{
+  color: var(--gold-light);
+  display: flex;
+  gap: 0.7rem;
+}

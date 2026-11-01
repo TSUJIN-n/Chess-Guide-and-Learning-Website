@@ -140,7 +140,7 @@
 .featured-container {
   flex: 1 1 0;
   padding: 4.5rem 2rem;
-  background: url(../assets/images/home/featured-basic.png) no-repeat center center/cover;
+  background: url(../../assets/images/home/featured-basic.png) no-repeat center center/cover;
   color: white;
   display: flex;
   flex-direction: column;

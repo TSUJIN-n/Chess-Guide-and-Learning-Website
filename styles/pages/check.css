@@ -1,0 +1,25 @@
+.heroContainer{
+  display: flex;
+  gap: 2rem;
+}
+
+.heroImg{
+  width: 100%;
+  max-width: 40rem;
+}
+
+.heroContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.h1-title {
+  font-size: 5rem;
+  line-height: 4rem;
+}
+.text-description {
+  font-size: var(--fs-p);
+  line-height: 1.5;
+}
