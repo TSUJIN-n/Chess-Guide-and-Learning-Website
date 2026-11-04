@@ -170,7 +170,7 @@
 
 .quick-recap-quote{
   color: var(--chess-white);
-  font-family: "Segoe Script", cursive;
+  font-family: var(--font-cursive);
   line-height: 1.8;
   word-spacing: 0.3rem;
   font-size: var(--fs-p);

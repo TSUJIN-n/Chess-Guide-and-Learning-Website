@@ -263,9 +263,9 @@
 }
 
 .qoute{
-  color: var(--text-secondary);
+  color: var(--chess-white);
   font-size: 1.7rem;
-  font-family: "Segoe Script", cursive;
+  font-family: var(--font-cursive);
   
 }
 
@@ -273,4 +273,83 @@
   width: 100%;
   max-width: 30%;
   border-bottom: 3px solid var(--gold-primary);
+}
+
+/* ====================== footerSection ====================== */
+
+.footerSection{
+  background-color: var(--chess-black);
+}
+
+.footerContentContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.previousLink{
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--chess-white);
+  padding:  0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: var(--radius-full);
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 12rem;
+}
+
+.previousContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.previousText{
+  font-size: var(--fs-p);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-weight: var(--fw-medium);
+}
+
+.previousIcon{
+  color: var(--chess-white);
+}
+
+.previousTitle{
+  color: var(--text-secondary);
+  font-size: 0.8rem; 
+}
+
+.nextLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gold-primary);
+  padding:  0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: var(--radius-full);
+  width: 100%;
+  max-width: 12rem;
+  gap: 2rem;
+}
+
+.nextContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.nextText{
+  color: var(--chess-black);
+  font-family: var(--font-body);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-p);
+}
+
+.nextTitle{
+  color: var(--chess-black);
+  font-weight: var(--fw-semibold);
+  font-size: 0.8rem; 
+}
+
+.nextIcon{
+  color: var(--chess-black);
 }

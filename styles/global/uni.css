@@ -35,6 +35,7 @@
       /* TYPOGRAPHY */
     --font-heading: "Playfair Display", serif;
     --font-body: "Inter", sans-serif;
+    --font-cursive: "Segoe Script", cursive;
 
     --fs-sm: 0.833rem;       /* 13.33px */
     --fs-p: 1rem;            /* 16px */
