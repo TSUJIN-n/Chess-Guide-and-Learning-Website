@@ -12,7 +12,8 @@
   color: var(--text-primary);
 }
 
-.h2-title{
+.h2-title,
+.h3-title{
   color: var(--text-primary);
   font-family: var(--font-heading);
 }

@@ -51,217 +51,234 @@
       </section>
 
       <!-- overview-section -->
-      <section>
-        <div>
-          <div>
-            <img
-              src="../../assets/images/how-to-play/checkChess/book.svg"
-              alt="book"
-            />
-            <h2>How to Play</h2>
-          </div>
-          <div>
-            <div>
-              <div>
-                <a href="#">
-                  <span>01</span>
-                  <span>Setting Up the Board</span>
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <a href="#">
-                  <span>02</span>
-                  <span>How Turns Work</span>
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <a href="#">
-                  <span>03</span>
-                  <span>Capturing Pieces</span>
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <a href="#">
-                  <span>04</span>
-                  <span>Check</span>
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <a href="#">
-                  <span>05</span>
-                  <span>Checkmate</span>
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <a href="#">
-                  <span>06</span>
-                  <span>Draw</span>
-                  <i class="fa-solid fa-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- content-section -->
-        <div>
-          <div>
-            <div>
-              <p>THE BASICS</p>
-              <h2>What is a Check?</h2>
-              <p>
-                A check occurs when the king is under attack by an opponent's
-                piece. The attacking piece can be a queen,rook,bishop,knight, or
-                pawn. When is check, the king cannot move to a square that is
-                also under attack.
-              </p>
-            </div>
-            <div>
+      <section class="overviewContentSection">
+        <div class="overviewContentContainer container">
+          <div class="overviewContainer">
+            <div class="overviewHeader">
               <img
-                src="../../assets/images/how-to-play/checkChess/kingPiece.svg"
-                alt="kingPiece"
+                class="overviewImg"
+                src="../../assets/images/how-to-play/checkChess/book.svg"
+                alt="book"
               />
-              <h3>Example: Check by a Queen</h3>
+              <h2 class="h2-title">How to Play</h2>
+            </div>
+            <div class="overviewLinkContainer">
               <div>
-                <img
-                  src="../../assets/images/how-to-play/checkChess/checkImgExample.png"
-                  alt="KingCheckByQueen"
-                />
-                <p>
-                  In this position, the black queen is giving check to the white
-                  king. The King is danger and must respond.
+                <a class="anchorLink" href="#">
+                  <div class="linkContentContainer">
+                    <span class="linkNumber">01</span>
+                    <span>Setting Up the Board</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+
+              <div>
+                <a class="anchorLink" href="#">
+                  <div class="linkContentContainer">
+                    <span class="linkNumber">02</span>
+                    <span>How Turns Work</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+
+              <div>
+                <a class="anchorLink" href="#">
+                  <div class="linkContentContainer">
+                    <span class="linkNumber">03</span>
+                    <span>Capturing Pieces</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+
+              <div>
+                <a class="anchorLink" href="#">
+                  <div class="linkContentContainer">
+                    <span class="linkNumber">04</span>
+                    <span>Check</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+
+              <div>
+                <a class="anchorLink" href="#">
+                  <div class="linkContentContainer">
+                    <span class="linkNumber">05</span>
+                    <span>Checkmate</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+
+              <div>
+                <a class="anchorLink" href="#">
+                  <div class="linkContentContainer">
+                    <span class="linkNumber">06</span>
+                    <span>Draw</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- content-section -->
+          <div class="checkContentContainer">
+            <div class="ContentContainer">
+              <div class="headerContent">
+                <p class="highlight">THE BASICS</p>
+                <h2 class="h2-title">What is a Check?</h2>
+                <p class="text-description">
+                  A check occurs when the king is under attack by an opponent's
+                  piece. The attacking piece can be a queen,rook,bishop,knight,
+                  or pawn. When is check, the king cannot move to a square that
+                  is also under attack.
                 </p>
               </div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>
-                <img
-                  src="../../assets/images/how-to-play/checkChess/shield.svg"
-                  alt="shield"
-                />
-                <h3>How to Respond to a Check</h3>
-              </div>
-              <div>
-                <div>
-                  <p>1</p>
-                  <p>Move the king to a safe square(not under attack).</p>
+              <div class="exampleCheckContainer">
+                <div class="imgHeaderContainer">
+                  <img
+                    class="imgIcon"
+                    src="../../assets/images/how-to-play/checkChess/kingPiece.svg"
+                    alt="kingPiece"
+                  />
+                  <h3 class="h3-title">Example: Check by a Queen</h3>
                 </div>
-
-                <div>
-                  <p>2</p>
-                  <p>Block the attack(if possible.)</p>
-                </div>
-
-                <div>
-                  <p>3</p>
-                  <p>Capture the attacking piece(if possible.)</p>
+                <div class="imgExampleCheckContainer">
+                  <img
+                    class="imgExampleCheck"
+                    src="../../assets/images/how-to-play/checkChess/checkImgExample.png"
+                    alt="KingCheckByQueen"
+                  />
+                  <p class="text-description">
+                    In this position, the black queen is giving check to the
+                    white king. The King is danger and must respond.
+                  </p>
                 </div>
               </div>
             </div>
-            <div>
-              <div>
-                <img
-                  src="../../assets/images/how-to-play/checkChess/bulb.svg"
-                  alt="bulb"
-                />
-                <h3>Remember</h3>
+            <div class="howToRespondContainer">
+              <div class="respondContentContainer">
+                <div class="respondHeaderContainer">
+                  <img
+                    class="iconRespond"
+                    src="../../assets/images/how-to-play/checkChess/shield.svg"
+                    alt="shield"
+                  />
+                  <h3 class="h3-title">How to Respond to a Check</h3>
+                </div>
+                <div class="respondContent">
+                  <div class="respondItemContainer">
+                    <span class="respondNumber">1</span>
+                    <span class="text-description responDescription">
+                      Move the king to a safe square(not under attack).
+                    </span>
+                  </div>
+
+                  <div class="respondItemContainer">
+                    <span class="respondNumber">2</span>
+                    <span class="text-description responDescription">
+                      Block the attack(if possible.)
+                    </span>
+                  </div>
+
+                  <div class="respondItemContainer">
+                    <span class="respondNumber">3</span>
+                    <span class="text-description responDescription">
+                      Capture the attacking piece(if possible.)
+                    </span>
+                  </div>
+                </div>
               </div>
-              <p>
-                If you are in check, you must respond. You cannot ignore it,
-                otherwise it's checkmate!
-              </p>
+              <div class="rememberContainer">
+                <div class="rememberHeaderContainer">
+                  <img
+                    class="iconRespond"
+                    src="../../assets/images/how-to-play/checkChess/bulb.svg"
+                    alt="bulb"
+                  />
+                  <h3 class="rememberText">Remember<h3>
+                </div>
+                <p class="text-description">
+                    If you are in check, you must respond. You cannot ignore it,
+                    otherwise it's checkmate!
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Key Takeaways-Section -->
-      <section>
-        <div>
-          <div>
-            <img
-              src="../../assets/images/how-to-play/checkChess/bulb.svg"
-              alt="bulb"
-            />
-            <h3>Key Takeaways</h3>
+      <section class="keyTakeawaysSection">
+        <div class="keyTakeawaysContainer container">
+          <div class="takeawaysHeaderContentContainer">
+            <div class="keyTakeawaysHeader">
+              <img class="keyTakeawaysIcon"
+                src="../../assets/images/how-to-play/checkChess/bulb.svg"
+                alt="bulb"
+              />
+              <h3 class="h3-title">Key Takeaways</h3>
+            </div>
+            <div class="keyTakeawaysContentContainer">
+              <div class="keyTakeawaysContent">
+                <i class="fa-solid fa-check takeawaysIcon"></i>
+                <p class="takeawaysTextDescription">A check means your king is under attack.</p>
+              </div>
+
+              <div class="keyTakeawaysContent">
+                <i class="fa-solid fa-check takeawaysIcon"></i>
+                <p class="takeawaysTextDescription">You must respond to a check right away.</p>
+              </div>
+
+              <div class="keyTakeawaysContent">
+                <i class="fa-solid fa-check takeawaysIcon"></i>
+                <p class="takeawaysTextDescription">
+                  You can move the king block the attack, or capture the attacking
+                  piece.
+                </p>
+              </div>
+
+              <div class="keyTakeawaysContent">
+                <i class="fa-solid fa-check takeawaysIcon"></i>
+                <p class="takeawaysTextDescription">ignoring a check can lead to checkmate</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <div>
-              <i class="fa-solid fa-check"></i>
-              <p>A check means your king is under attack.</p>
-            </div>
-
-            <div>
-              <i class="fa-solid fa-check"></i>
-              <p>You must respond to a check right away.</p>
-            </div>
-
-            <div>
-              <i class="fa-solid fa-check"></i>
-              <p>
-                You can move the king block the attack, or capture the attacking
-                piece.
-              </p>
-            </div>
-
-            <div>
-              <i class="fa-solid fa-check"></i>
-              <p>ignoring a check can lead to checkmate</p>
-            </div>
+          <div class="qouteContainer">
+            <p class="qoute">
+              " Check is a warning respond wisely, or it could be game over. "
+            </p>
+            <div class="qouteLine"></div>
           </div>
-        </div>
-        <div>
-          <p>
-            <span>"</span>
-            Check is a warning respond wisely, or it could be game over."
-          </p>
         </div>
       </section>
     </main>
 
     <!-- footer-section -->
     <footer>
-      <div>
-        <a href="#">
-          <i class="fa-solid fa-arrow-left"></i>
+      <section>
           <div>
-            <span>Previous</span>
-            <span>Capturing Pieces</span>
+            <a href="#">
+              <i class="fa-solid fa-arrow-left"></i>
+              <div>
+                <span>Previous</span>
+                <span>Capturing Pieces</span>
+              </div>
+            </a>
+            
+            <a href="../checkmate.html">
+              <div>
+                <span>next</span>
+                <span>Checkmate</span>
+              </div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
           </div>
-        </a>
-
-        <div>
-          <a href="../checkmate.html">
-            <div>
-              <span>next</span>
-              <span>Checkmate</span>
-            </div>
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
+      </section>
     </footer>
   </body>
 </html>
