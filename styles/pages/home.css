@@ -205,7 +205,7 @@
 
 @media (max-width: 72rem){
   .card-content{
-    flex: 1 1 calc(50% - 16px);
+    flex: 1 1 48%;
   }
 }
 
