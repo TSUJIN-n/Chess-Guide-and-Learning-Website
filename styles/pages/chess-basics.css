@@ -57,7 +57,9 @@
 }
 
 .chessboard-image {
-  width: 15rem;
+  width: 100%;
+  max-width: 15rem;
+  border: 4px solid var(--border-color);
 }
 
 .chessboard-container {
