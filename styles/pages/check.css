@@ -148,7 +148,6 @@
   background-color: var(--gold-primary);
   padding: 0.3rem 0.7rem;
   border-radius: 50%;
-  display: inline-block;
   color: var(--chess-black);
   font-weight: var(--fw-bold);
   font-size: var(--fs-h6);
