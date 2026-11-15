@@ -161,6 +161,10 @@
   max-width: 10rem;
 }
 
+.footer-section{
+  background-color: var(--bg-primary);
+}
+
 .footer-piece-container{
   display: flex;
   align-items: center;

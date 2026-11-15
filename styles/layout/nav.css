@@ -1,11 +1,9 @@
-.nav-logo,
-.footer-logo{
+.nav-logo{
   width: var(--size-3xl);
 }
 
 
-.nav-container,
-.footer-container{
+.nav-container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,13 +13,11 @@
   padding: var(--size-lg);
 }
 
-.header-section,
-.footer-section{
+.header-section{
   background-color: var(--bg-primary);
 }
 
-.nav-content,
-.footer-content{
+.nav-content{
   display: flex;
   align-items: center;
   gap: var(--size-sm);
@@ -33,21 +29,18 @@
   gap: 1rem;
 }
 
-.nav-list,
-.footer-list{
+.nav-list{
   display: flex;
   gap: var(--size-xl);
 
 }
-.nav-link,
-.footer-link{
+.nav-link{
   color: var(--text-secondary);
   font-size: var(--fs-p);
   font-family: var(--font-body);
 }
 
-.nav-title,
-.footer-title{
+.nav-title{
   color: var(--text-primary);
   font-family: var(--font-body);
 }
