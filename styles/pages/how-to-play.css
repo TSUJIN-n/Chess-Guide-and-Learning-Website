@@ -226,13 +226,13 @@
   }
 }
 
-@media(max-width: 56.25rem){
+@media(max-width: 67.25rem){
   html{
     font-size: 75%;
   }
 }
 
-@media(max-width: 50rem){
+@media(max-width: 45rem){
   .quick-recap-container{
     flex-direction: column;
   }
